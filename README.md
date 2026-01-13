@@ -66,6 +66,18 @@ Create a production-ready build:
 npm run build
 ```
 
+## 🚀 Deployment
+
+This project is configured for automated deployment to GitHub Pages via GitHub Actions.
+
+1. **GitHub Actions**: Push your changes to the `main` branch, and the workflow in `.github/workflows/deploy.yml` will automatically build and deploy the site.
+2. **Repository Settings**:
+   - Go to your repository on GitHub.
+   - Settings > Pages.
+   - Under **Build and deployment** > **Source**, select **GitHub Actions**.
+
+The site will be live at `https://haroon2109.github.io/Portfolio/`.
+
 ## 👤 Author
 
 **Mohamed A Haroon**
