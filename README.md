@@ -36,17 +36,6 @@ A high-impact, interactive personal portfolio built with a **Neo Brutalist** des
 - `script.js`: Interactive features, theme handling, and filtering logic.
 - `assets/`: Optimized project imagery and branding assets.
 
-## 🚀 getting started
-
-1. **Clone the project**
-   ```bash
-   git clone https://github.com/haroon2109/Portfolio.git
-   ```
-2. **Open the index.html**
-   ```bash
-   # You can use VS Code Live Server or just open in any browser
-   open index.html
-   ```
 
 ## 🤝 contact
 
@@ -55,4 +44,4 @@ A high-impact, interactive personal portfolio built with a **Neo Brutalist** des
 - **Phone**: +91 7305090806
 
 ---
-*Built with ❤️ by Mohamed Haroon*
+*Built by Mohamed Haroon*
