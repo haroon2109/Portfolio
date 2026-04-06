@@ -5,7 +5,6 @@ A high-impact, interactive personal portfolio built with a **Neo Brutalist** des
 ![Portfolio Preview Assets](https://img.shields.io/badge/Design-Neo_Brutalism-FFD100?style=for-the-badge&logoColor=black)
 ![Tech Stack](https://img.shields.io/badge/Tech-HTML5_|_CSS3_|_JS-blue?style=for-the-badge)
 
-Link -> https://haroon2109.github.io/Portfolio/
 
 ## ✨ key features
 
