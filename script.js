@@ -187,10 +187,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     🏆 Recognized as a Top 30 National Finalist in SahAI for Shiksha (Backed by Google.org & Wadhwani AI)
                 </div>
 
-                <div style="margin-bottom: 24px;">
-                    <img src="assets/kagaz-ai-architecture.png" alt="Kagaz-AI Full Multimodal Architecture Infographic" style="width: 100%; border: 3px solid #000; box-shadow: 5px 5px 0px #000; border-radius: 6px;">
-                </div>
-
                 <h4 style="font-size:1.15rem; font-weight:900; margin-top:20px; margin-bottom:10px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">📌 Project Overview & Purpose</h4>
                 <p style="line-height:1.6; margin-bottom:14px;">Kagaz-AI is an advanced full-stack AI platform engineered to bridge physical educational materials and digital analytics. Built for teachers and academic institutions, the system processes uploaded or captured handwritten student worksheets, applies localized optical character recognition (OCR), autonomously evaluates structural math and text answers, detects student pedagogical gaps, and surfaces comprehensive classroom intelligence.</p>
                 <p style="line-height:1.6; margin-bottom:20px;">Instead of relying on rigid, resource-heavy legacy OCR pipelines that fail on handwritten documents, Kagaz-AI utilizes an <strong>End-to-End Multimodal Vision-to-Text Architecture via Gemini 1.5 Flash</strong>.</p>

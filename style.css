@@ -1404,13 +1404,26 @@ header {
 .modal-content {
     background: #fff;
     border: var(--border-width) solid var(--border-color);
-    max-width: 800px;
+    max-width: 850px;
     width: 90%;
     max-height: 90vh;
     overflow-y: auto;
     position: relative;
     box-shadow: 20px 20px 0px var(--border-color);
     padding: 40px;
+}
+
+#modal-img {
+    width: 100%;
+    height: auto;
+    max-height: 480px;
+    object-fit: contain;
+    background: #fff;
+    border: 3px solid #000;
+    box-shadow: 6px 6px 0px #000;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    display: block;
 }
 
 .close-modal {
