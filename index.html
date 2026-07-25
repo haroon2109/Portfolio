@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Haroon - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Custom Cursor -->
+    <div id="custom-cursor"></div>
+    
+    <!-- Branded Loader -->
+    <div id="loader">
+        <h1 class="loader-logo">Haroon<span>.</span></h1>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Haroon</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#activity">Activity</a>
+            </div>
+            <div class="nav-right">
+                <a href="#contact" class="contact-btn">Contact me</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero-section">
+            
+            <div class="hero-hey-there">
+                <span class="hey">Hey,</span> 
+                <span class="there">There</span>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1 class="main-title">I AM<br>MOHAMED<br>HAROON</h1>
+                </div>
+
+                <div class="hero-center">
+                    <!-- Profile Image -->
+                    <img src="assets/hero-profile.png" alt="Mohamed Haroon" class="profile-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'350\' height=\'450\' viewBox=\'0 0 350 450\'><rect width=\'100%\' height=\'100%\' fill=\'%23f24987\' fill-opacity=\'0.2\' rx=\'20\'/><text x=\'50%\' y=\'50%\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%23333\' font-weight=\'bold\' text-anchor=\'middle\' dominant-baseline=\'middle\'>hero-profile.png</text></svg>';">
+                </div>
+
+                <div class="hero-right">
+                    <h2 class="sub-title">AI & Full-Stack Engineer<br>Generative AI & Systems</h2>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="card about-card">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="assets/about-front.jpg" alt="Mohamed Haroon - Front" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'400\' viewBox=\'0 0 300 400\'><rect width=\'100%\' height=\'100%\' fill=\'%23d0f0f5\'/><text x=\'50%\' y=\'50%\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%23333\' font-weight=\'bold\' text-anchor=\'middle\' dominant-baseline=\'middle\'>about-front.jpg</text></svg>';">
+                        </div>
+                        <div class="back">
+                            <img src="assets/about-back.jpg" alt="Mohamed Haroon - Back" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'400\' viewBox=\'0 0 300 400\'><rect width=\'100%\' height=\'100%\' fill=\'%23A4E2C6\'/><text x=\'50%\' y=\'50%\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%23333\' font-weight=\'bold\' text-anchor=\'middle\' dominant-baseline=\'middle\'>about-back.jpg</text></svg>';">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <p class="about-desc">
+                        Pre-final year <strong>B.Tech AI & Data Science</strong> student engineering full-stack AI applications, high-performance web interfaces, and computer vision systems. Focused on building scalable, zero-latency digital solutions that combine cutting-edge generative AI models with resilient backend architectures.
+                    </p>
+                    
+                    <h3 class="edu-title">Education:</h3>
+                    
+                    <div class="edu-item">
+                        <p><strong>B.Tech - AI & Data Science</strong><br>
+                        Rajalakshmi Institute of Technology, Chennai (2023 - 2027)<br>
+                        <span class="score">CGPA: 8.26 / 10.0</span></p>
+                    </div>
+                    
+                    <div class="edu-item">
+                        <p><strong>Schooling - Tamilnadu Board</strong><br>
+                        Vivekananda Higher Secondary School, Chennai (2021 - 2023)<br>
+                        <span class="score">Scores: 83.5% (XI), 94.3% (XII)</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai">AI / ML</button>
+                <button class="filter-btn" data-filter="web">Web Dev</button>
+                <button class="filter-btn" data-filter="tool">Tools</button>
+            </div>
+
+            <div class="projects-grid">
+                
+                <!-- Agri AI -->
+                <div class="card project-card" data-project="agri-ai" data-category="ai">
+                    <img src="assets/agri-ai.png" alt="Agri AI" class="project-img">
+                    <div class="project-card-content">
+                        <div class="project-badges">
+                            <span class="badge-tech">FastAPI</span>
+                            <span class="badge-tech">Gemini API</span>
+                            <span class="badge-tech">Voice Intent</span>
+                        </div>
+                        <h3>Agri AI</h3>
+                        <p class="project-summary">Engineered an enterprise-grade voice-intent farming assistant for Tamil Nadu, reducing query latency by 45% over 2G network constraints using async FastAPI queues.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-black btn-details">View Details</button>
+                            <a href="https://agriai-frontend-57v0.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn btn-live" onclick="event.stopPropagation()">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/haroon2109/AgriAI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- To Do List -->
+                <div class="card project-card" data-project="todo-list" data-category="web">
+                    <img src="assets/todo-list.png" alt="To Do List" class="project-img">
+                    <div class="project-card-content">
+                        <div class="project-badges">
+                            <span class="badge-tech">React 18</span>
+                            <span class="badge-tech">Vite</span>
+                            <span class="badge-tech">Tailwind</span>
+                        </div>
+                        <h3>Pro-Flow Productivity Engine</h3>
+                        <p class="project-summary">Built a high-performance productivity engine implementing Eisenhower matrix priority queueing and Pomodoro timers, accelerating task workflow speed by 3x.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-black btn-details">View Details</button>
+                            <a href="https://to-do-list-amber-rho.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-live" onclick="event.stopPropagation()">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/haroon2109/To-Do-list" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wifi QR Pass -->
+                <div class="card project-card" data-project="wifi-qr" data-category="tool">
+                    <img src="assets/wifi-qr.png" alt="Wifi QR Pass" class="project-img">
+                    <div class="project-card-content">
+                        <div class="project-badges">
+                            <span class="badge-tech">JavaScript</span>
+                            <span class="badge-tech">Client-Side QR</span>
+                            <span class="badge-tech">Printable UI</span>
+                        </div>
+                        <h3>Wifi QR Pass Generator</h3>
+                        <p class="project-summary">Designed zero-latency client-side network card generator that formats encrypted WiFi credentials into printable, instant QR guest cards with 100% data privacy.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-black btn-details">View Details</button>
+                            <a href="https://haroon2109.github.io/WIFI-QR-PASS/" target="_blank" rel="noopener noreferrer" class="btn btn-live" onclick="event.stopPropagation()">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/haroon2109/WIFI-QR-PASS" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Artisan AI -->
+                <div class="card project-card" data-project="artisan-ai" data-category="ai">
+                    <img src="assets/artisan-ai.png" alt="Artisan AI" class="project-img">
+                    <div class="project-card-content">
+                        <div class="project-badges">
+                            <span class="badge-tech">Streamlit</span>
+                            <span class="badge-tech">Google Gemini</span>
+                            <span class="badge-tech">Multimodal</span>
+                        </div>
+                        <h3>Artisan AI Studio</h3>
+                        <p class="project-summary">Developed a multimodal AI creative suite leveraging Google Gemini API, enabling local artisans to auto-generate marketing visual assets in under 5 seconds.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-black btn-details">View Details</button>
+                            <a href="https://haroon2109.github.io/Artisan-AI/" target="_blank" rel="noopener noreferrer" class="btn btn-live" onclick="event.stopPropagation()">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/haroon2109/Artisan-AI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FRAS -->
+                <div class="card project-card" data-project="fras" data-category="ai">
+                    <img src="assets/fras_vector.png" alt="FRAS" class="project-img">
+                    <div class="project-card-content">
+                        <div class="project-badges">
+                            <span class="badge-tech">OpenCV</span>
+                            <span class="badge-tech">Python</span>
+                            <span class="badge-tech">Biometrics</span>
+                        </div>
+                        <h3>FRAS (Biometric Attendance System)</h3>
+                        <p class="project-summary">Engineered an automated face recognition attendance tracker using OpenCV facial embeddings, achieving 98.4% accuracy at 30 FPS processing directly on edge CPU devices.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-black btn-details">View Details</button>
+                            <a href="https://github.com/haroon2109/Face-Recognition-Attendance-System" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills & Core Competencies</h2>
+            <div class="skills-grid">
+                
+                <div class="card skill-card">
+                    <i class="fa-solid fa-microchip skill-icon"></i>
+                    <h3>Core Computer Science</h3>
+                    <p>Data Structures & Algorithms, System Design, REST APIs, Object-Oriented Programming (OOP)</p>
+                </div>
+
+                <div class="card skill-card">
+                    <i class="fa-solid fa-brain skill-icon"></i>
+                    <h3>AI & Machine Learning</h3>
+                    <p>PyTorch, Scikit-learn, OpenCV, Google Gemini API, Prompt Engineering, Vector Embeddings</p>
+                </div>
+
+                <div class="card skill-card">
+                    <i class="fa-solid fa-layer-group skill-icon"></i>
+                    <h3>Full-Stack Web Dev</h3>
+                    <p>React 18, Node.js, FastAPI, JavaScript (ES6+), HTML5, CSS3 (Modular & Neo Brutalist)</p>
+                </div>
+
+                <div class="card skill-card">
+                    <i class="fa-solid fa-code skill-icon"></i>
+                    <h3>Programming & Data</h3>
+                    <p>Python, SQL, C, R, MongoDB, Data Wrangling, Feature Engineering</p>
+                </div>
+
+                <div class="card skill-card">
+                    <i class="fa-solid fa-toolbox skill-icon"></i>
+                    <h3>Developer Tools & Cloud</h3>
+                    <p>Git, GitHub, Docker, Figma, Power BI, Render, Vercel</p>
+                </div>
+
+                <div class="card skill-card">
+                    <i class="fa-solid fa-trophy skill-icon"></i>
+                    <h3>Engineering Practice</h3>
+                    <p>Agile Problem Solving, Hackathon Prototyping, Technical Communication, UX Ergonomics</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Activity Section -->
+        <section id="activity" class="section">
+            <h2 class="section-title">Activity & Presence</h2>
+            
+            <div class="github-stats-container">
+                <div class="github-card">
+                    <img src="https://github-readme-stats.vercel.app/api?username=haroon2109&show_icons=true&theme=buefy&hide_border=true&bg_color=ffffff&title_color=000&text_color=000&icon_color=ff60b5" alt="GitHub Stats">
+                </div>
+            </div>
+
+            <div class="timeline">
+                
+                <div class="timeline-item card fade-in-element">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Nov 2025 – Dec 2025</span>
+                        <h3>Intern – ICCC (Smart City Operations)</h3>
+                        <p class="activity-subtitle">Greater Chennai Corporation</p>
+                        <ul class="activity-list">
+                            <li><i class="fa-solid fa-arrow-right-long text-pink"></i> Engineered real-time operational monitoring modules for Chennai ICCC, processing telemetry from hundreds of active IoT sensors.</li>
+                            <li><i class="fa-solid fa-arrow-right-long text-pink"></i> Developed interactive Power BI & web analytics dashboards, facilitating rapid decision-making for municipal administrators.</li>
+                            <li><i class="fa-solid fa-arrow-right-long text-pink"></i> Optimized large-scale spatial data management pipelines to maintain low-latency query performance.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item card fade-in-element">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - Present</span>
+                        <h3>Hackathons & Tech Competitions</h3>
+                        <p class="activity-subtitle">Active Builder & National Competitor</p>
+                        <ul class="activity-list">
+                            <li><i class="fa-solid fa-arrow-right-long text-pink"></i> Competed in premier national hackathons including ISRO Bharatiya Antariksh, Google Agentic AI Day, Nasscom, Smart India Hackathon, and HackVerse.</li>
+                            <li><i class="fa-solid fa-arrow-right-long text-pink"></i> Built rapid functional prototypes under strict time limits, focusing on AI-driven social impact and edge computing.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="section">
+            <h2 class="section-title">Certificates & Badges</h2>
+            <div class="certificates-grid">
+                <div class="card cert-card">
+                    <img src="assets/Agentic AI hackathon certificate.jpg" alt="Agentic AI Day Certificate" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'cert-fallback-badge\' style=\'background:%23FF60B5\'><i class=\'fa-solid fa-award cert-fallback-icon\'></i><h4>Agentic AI Hackathon</h4><p>Google AI Day 2024</p></div>';">
+                </div>
+                <div class="card cert-card">
+                    <img src="assets/ISRO hackathon certificate.jpg" alt="Antariksh Hackathon Certificate" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'cert-fallback-badge\' style=\'background:%2300D1FF\'><i class=\'fa-solid fa-rocket cert-fallback-icon\'></i><h4>ISRO Bharatiya Antariksh</h4><p>National Space Hackathon</p></div>';">
+                </div>
+                <div class="card cert-card">
+                    <img src="assets/google-ai-certificate.jpg" alt="Google AI Essentials Certificate" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'cert-fallback-badge\' style=\'background:%23FFD100\'><i class=\'fa-brands fa-google cert-fallback-icon\'></i><h4>Google AI Essentials</h4><p>Certified Specialist</p></div>';">
+                </div>
+                <div class="card cert-card">
+                    <div class="cert-fallback-badge" style="background:#00D1FF">
+                        <i class="fa-solid fa-database cert-fallback-icon"></i>
+                        <h4>MongoDB Student Associate</h4>
+                        <p>NoSQL Database Certification</p>
+                    </div>
+                </div>
+                <div class="card cert-card">
+                    <div class="cert-fallback-badge" style="background:#FF60B5">
+                        <i class="fa-solid fa-brain cert-fallback-icon"></i>
+                        <h4>Build With AI Bootcamp</h4>
+                        <p>Google Developer Groups</p>
+                    </div>
+                </div>
+                <div class="card cert-card">
+                    <div class="cert-fallback-badge" style="background:#FFD100">
+                        <i class="fa-solid fa-server cert-fallback-icon"></i>
+                        <h4>C-DAC AI Bootcamp</h4>
+                        <p>Centre for Development of Advanced Computing</p>
+                    </div>
+                </div>
+                <div class="card cert-card">
+                    <div class="cert-fallback-badge" style="background:#A4E2C6">
+                        <i class="fa-solid fa-gamepad cert-fallback-icon"></i>
+                        <h4>Innovate4FinLit Challenge</h4>
+                        <p>Financial Literacy Game Dev</p>
+                    </div>
+                </div>
+                <div class="card cert-card">
+                    <div class="cert-fallback-badge" style="background:#00D1FF">
+                        <i class="fa-solid fa-lightbulb cert-fallback-icon"></i>
+                        <h4>Google Solution Challenge</h4>
+                        <p>Build With AI 2024</p>
+                    </div>
+                </div>
+                <div class="card cert-card">
+                    <div class="cert-fallback-badge" style="background:#FF60B5">
+                        <i class="fa-solid fa-scale-balanced cert-fallback-icon"></i>
+                        <h4>Kaggle Intro to AI Ethics</h4>
+                        <p>Ethical Machine Learning</p>
+                    </div>
+                </div>
+                <div class="card cert-card">
+                    <div class="cert-fallback-badge" style="background:#FFD100">
+                        <i class="fa-solid fa-chart-pie cert-fallback-icon"></i>
+                        <h4>Google Data Foundations</h4>
+                        <p>Data Everywhere Certification</p>
+                    </div>
+                </div>
+                <div class="card cert-card">
+                    <div class="cert-fallback-badge" style="background:#A4E2C6">
+                        <i class="fa-solid fa-terminal cert-fallback-icon"></i>
+                        <h4>Google Prompting Essentials</h4>
+                        <p>LLM Prompt Design Certification</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <h2 class="section-title contact-section-title">Contact Me</h2>
+            <div class="contact-grid">
+                
+                <div class="card contact-cta-card">
+                    <h2 class="contact-title">Let's make something <br>amazing together</h2>
+                    
+                    <!-- Functional Contact Form UI -->
+                    <form action="mailto:mohamedharoon2109@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+                        <div class="input-group">
+                            <input type="text" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="email" required placeholder="Your Email">
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" rows="4" required placeholder="How can I help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-black submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+
+                <div class="card contact-info-card contact-info-wrapper">
+                    <div>
+                        <h3>Direct Contact</h3>
+                        <div class="info-block">
+                            <p class="info-label">LOCATION</p>
+                            <p>Chennai, India</p>
+                        </div>
+                        <div class="info-block">
+                            <p class="info-label">PHONE</p>
+                            <p>+91 7305090806</p>
+                        </div>
+                        <div class="info-block">
+                            <p class="info-label">EMAIL</p>
+                            <p>mohamedharoon2109@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links-wrapper">
+                        <h3>Social Links</h3>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/md.a.haroon/#" target="_blank" rel="noopener noreferrer" title="Instagram" class="social-icon social-insta"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://wa.me/917305090806" target="_blank" rel="noopener noreferrer" title="WhatsApp" class="social-icon social-wa"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="http://github.com/haroon2109" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-icon social-gh"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer" title="Figma" class="social-icon"><i class="fa-brands fa-figma"></i></a>
+                            <a href="tel:+917305090806" title="Phone" class="social-icon social-phone"><i class="fa-solid fa-phone"></i></a>
+                            <a href="http://linkedin.com/in/mohamed-haroon-811599293" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-icon social-li"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="mailto:mohamedharoon2109@gmail.com" title="Email" class="social-icon social-mail"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    
+    <!-- Project Modal Overlay -->
+    <div id="project-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal"><i class="fa-solid fa-xmark"></i></span>
+            <div class="modal-body">
+                <img id="modal-img" src="" alt="Project Image">
+                <h2 id="modal-title">Project Title</h2>
+                <div class="modal-tags" id="modal-tags"></div>
+                <p id="modal-desc">Project details...</p>
+                <div class="modal-buttons card-buttons" id="modal-buttons"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
