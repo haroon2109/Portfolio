@@ -899,30 +899,87 @@ header {
     gap: 30px;
 }
 
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    width: 100%;
+}
+
 .skill-card {
-    text-align: center;
-    background: var(--text-pink);
-}
-
-.skill-card:nth-child(even) {
-    background: var(--text-blue);
-}
-
-.skill-icon {
-    font-size: 3rem;
-    margin-bottom: 15px;
-    background: #fff;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
+    text-align: left;
+    background: #ffffff;
     border: var(--border-width) solid var(--border-color);
-    margin: 0 auto 20px;
+    box-shadow: var(--shadow);
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.2s ease;
+}
+
+.skill-card:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 12px 12px 0px var(--border-color);
+}
+
+.skill-card-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 14px;
+}
+
+.skill-icon-badge {
+    font-size: 1.8rem;
+    width: 48px;
+    height: 48px;
+    background: #00D1FF;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 0px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #000;
+}
+
+.skill-card:nth-child(even) .skill-icon-badge {
+    background: #FF60B5;
 }
 
 .skill-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     font-weight: 900;
     text-transform: uppercase;
+    color: #000;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.skill-pills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-pill {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #000;
+    background: #F8F9FA;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 0px #000;
+    padding: 4px 10px;
+    border-radius: 6px;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.skill-pill:hover {
+    transform: translate(-2px, -2px);
+    background: #FFD100;
 }
 
 /* ---------------
