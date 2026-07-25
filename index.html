@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohamed Haroon - Portfolio</title>
-    <link rel="stylesheet" href="style.css?v=10.0">
+    <link rel="stylesheet" href="style.css?v=11.0">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -198,7 +198,39 @@
 
             <div class="projects-grid">
                 
-                <!-- Sukoon AI -->
+                <!-- 1. Kagaz-AI -->
+                <div class="card project-card" data-project="kagaz-ai" data-category="ai">
+                    <div class="browser-mockup">
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="browser-url">github.com/haroon2109/Kagaz-AI</div>
+                        </div>
+                        <div class="cert-fallback-badge" style="background:#00D1FF; min-height:200px">
+                            <i class="fa-solid fa-file-contract cert-fallback-icon" style="font-size:3.5rem"></i>
+                            <h4 style="font-size:1.4rem">Kagaz-AI</h4>
+                            <p style="font-size:0.95rem">Multi-Document Intelligence & OCR</p>
+                        </div>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-badges">
+                            <span class="badge-tech"><i class="devicon-python-plain colored"></i> Python</span>
+                            <span class="badge-tech">OCR Engine</span>
+                            <span class="badge-tech">Vector Search</span>
+                        </div>
+                        <h3>Kagaz-AI (Document Intelligence)</h3>
+                        <p class="project-summary">Architected a multilingual document extraction and summarization suite, accelerating regional paperwork analysis speed by 4x with zero data loss.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-black btn-details">View Case Study</button>
+                            <a href="https://github.com/haroon2109/Kagaz-AI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="devicon-github-original"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Sukoon AI -->
                 <div class="card project-card" data-project="sukoon-ai" data-category="ai">
                     <div class="browser-mockup">
                         <div class="browser-header">
@@ -232,7 +264,36 @@
                     </div>
                 </div>
 
-                <!-- ReliefGrid -->
+                <!-- 3. Agri AI -->
+                <div class="card project-card" data-project="agri-ai" data-category="ai">
+                    <div class="browser-mockup">
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="browser-url">agriai-frontend.onrender.com</div>
+                        </div>
+                        <img src="assets/agri-ai.png" alt="Agri AI" class="project-img">
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-badges">
+                            <span class="badge-tech"><i class="devicon-fastapi-plain colored"></i> FastAPI</span>
+                            <span class="badge-tech"><i class="devicon-google-plain colored"></i> Gemini API</span>
+                            <span class="badge-tech">2G Optimized</span>
+                        </div>
+                        <h3>Agri AI</h3>
+                        <p class="project-summary">Engineered an enterprise-grade voice-intent farming assistant for Tamil Nadu, reducing query latency by 45% over 2G network constraints using async FastAPI queues.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-black btn-details">View Case Study</button>
+                            <a href="https://agriai-frontend-57v0.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn btn-live" onclick="event.stopPropagation()">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/haroon2109/AgriAI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="devicon-github-original"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. ReliefGrid -->
                 <div class="card project-card" data-project="relief-grid" data-category="web">
                     <div class="browser-mockup">
                         <div class="browser-header">
@@ -264,68 +325,7 @@
                     </div>
                 </div>
 
-                <!-- Agri AI -->
-                <div class="card project-card" data-project="agri-ai" data-category="ai">
-                    <div class="browser-mockup">
-                        <div class="browser-header">
-                            <div class="browser-dots">
-                                <span class="dot dot-red"></span>
-                                <span class="dot dot-yellow"></span>
-                                <span class="dot dot-green"></span>
-                            </div>
-                            <div class="browser-url">agriai-frontend.onrender.com</div>
-                        </div>
-                        <img src="assets/agri-ai.png" alt="Agri AI" class="project-img">
-                    </div>
-                    <div class="project-card-content">
-                        <div class="project-badges">
-                            <span class="badge-tech"><i class="devicon-fastapi-plain colored"></i> FastAPI</span>
-                            <span class="badge-tech"><i class="devicon-google-plain colored"></i> Gemini API</span>
-                            <span class="badge-tech">2G Optimized</span>
-                        </div>
-                        <h3>Agri AI</h3>
-                        <p class="project-summary">Engineered an enterprise-grade voice-intent farming assistant for Tamil Nadu, reducing query latency by 45% over 2G network constraints using async FastAPI queues.</p>
-                        <div class="card-actions">
-                            <button class="btn btn-black btn-details">View Case Study</button>
-                            <a href="https://agriai-frontend-57v0.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn btn-live" onclick="event.stopPropagation()">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="https://github.com/haroon2109/AgriAI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="devicon-github-original"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Kagaz-AI -->
-                <div class="card project-card" data-project="kagaz-ai" data-category="ai">
-                    <div class="browser-mockup">
-                        <div class="browser-header">
-                            <div class="browser-dots">
-                                <span class="dot dot-red"></span>
-                                <span class="dot dot-yellow"></span>
-                                <span class="dot dot-green"></span>
-                            </div>
-                            <div class="browser-url">github.com/haroon2109/Kagaz-AI</div>
-                        </div>
-                        <div class="cert-fallback-badge" style="background:#00D1FF; min-height:200px">
-                            <i class="fa-solid fa-file-contract cert-fallback-icon" style="font-size:3.5rem"></i>
-                            <h4 style="font-size:1.4rem">Kagaz-AI</h4>
-                            <p style="font-size:0.95rem">Multi-Document Intelligence & OCR</p>
-                        </div>
-                    </div>
-                    <div class="project-card-content">
-                        <div class="project-badges">
-                            <span class="badge-tech"><i class="devicon-python-plain colored"></i> Python</span>
-                            <span class="badge-tech">OCR Engine</span>
-                            <span class="badge-tech">Vector Search</span>
-                        </div>
-                        <h3>Kagaz-AI (Document Intelligence)</h3>
-                        <p class="project-summary">Architected a multilingual document extraction and summarization suite, accelerating regional paperwork analysis speed by 4x with zero data loss.</p>
-                        <div class="card-actions">
-                            <button class="btn btn-black btn-details">View Case Study</button>
-                            <a href="https://github.com/haroon2109/Kagaz-AI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="devicon-github-original"></i> GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Artisan AI -->
+                <!-- 5. Artisan AI -->
                 <div class="card project-card" data-project="artisan-ai" data-category="ai">
                     <div class="browser-mockup">
                         <div class="browser-header">
@@ -354,7 +354,7 @@
                     </div>
                 </div>
 
-                <!-- FRAS -->
+                <!-- 6. FRAS -->
                 <div class="card project-card" data-project="fras" data-category="ai">
                     <div class="browser-mockup">
                         <div class="browser-header">
