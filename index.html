@@ -45,25 +45,83 @@
         <section id="home" class="hero-section">
             
             <div class="hero-hey-there">
-                <span class="hey">Hey,</span> 
-                <span class="there">There</span>
+                <span class="hey">Mohamed</span> 
+                <span class="there">Haroon</span>
             </div>
 
             <div class="hero-content">
                 <div class="hero-left">
-                    <h1 class="main-title">I AM<br>MOHAMED<br>HAROON</h1>
+                    <h1 class="main-title">AI DEVELOPER<br>& FRONT-END<br>ENGINEER</h1>
                 </div>
 
                 <div class="hero-center">
                     <!-- Profile Image -->
                     <img src="assets/hero-profile.png" alt="Mohamed Haroon" class="profile-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'350\' height=\'450\' viewBox=\'0 0 350 450\'><rect width=\'100%\' height=\'100%\' fill=\'%23f24987\' fill-opacity=\'0.2\' rx=\'20\'/><text x=\'50%\' y=\'50%\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%23333\' font-weight=\'bold\' text-anchor=\'middle\' dominant-baseline=\'middle\'>hero-profile.png</text></svg>';">
+                    
+                    <!-- Floating Tech Badges -->
+                    <div class="floating-tech-badges">
+                        <span class="floating-badge badge-python"><i class="fa-brands fa-python"></i> Python</span>
+                        <span class="floating-badge badge-next"><i class="fa-solid fa-cubes"></i> Next.js</span>
+                        <span class="floating-badge badge-fastapi"><i class="fa-solid fa-bolt"></i> FastAPI</span>
+                        <span class="floating-badge badge-opencv"><i class="fa-solid fa-eye"></i> OpenCV</span>
+                        <span class="floating-badge badge-pytorch"><i class="fa-solid fa-brain"></i> PyTorch</span>
+                    </div>
                 </div>
 
                 <div class="hero-right">
-                    <h2 class="sub-title">AI & Full-Stack Engineer<br>Generative AI & Systems</h2>
+                    <h2 class="sub-title">Building Scalable, 2G-Optimized AI Backends & Web Interfaces</h2>
+                    <p class="hero-subtext">Final-year AI & Data Science student merging intelligent neural workflows with responsive, high-impact front-end designs.</p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-black hero-btn">View Projects <i class="fa-solid fa-arrow-down-long"></i></a>
+                        <a href="#contact" class="btn btn-resume hero-btn">Contact / Resume <i class="fa-solid fa-file-arrow-down"></i></a>
+                    </div>
                 </div>
             </div>
             
+        </section>
+
+        <!-- Key Achievements Banner (The "Wow" Proof) -->
+        <section id="achievements" class="section achievements-section">
+            <h2 class="section-title">Key Achievements & Impact</h2>
+            <div class="achievements-grid">
+                
+                <div class="card achievement-card highlight-gold">
+                    <div class="achievement-icon-wrapper">
+                        <i class="fa-solid fa-trophy achievement-icon"></i>
+                    </div>
+                    <div class="achievement-body">
+                        <span class="achievement-badge">National Top 30</span>
+                        <h3>SahAI for Shiksha Hackathon</h3>
+                        <p class="achievement-org">Wadhwani AI & Google.org</p>
+                        <p class="achievement-desc">Selected among the <strong>Top 30 teams nationally</strong> for engineering accessible AI-driven educational assistance pipelines.</p>
+                    </div>
+                </div>
+
+                <div class="card achievement-card highlight-cyan">
+                    <div class="achievement-icon-wrapper">
+                        <i class="fa-solid fa-rocket achievement-icon"></i>
+                    </div>
+                    <div class="achievement-body">
+                        <span class="achievement-badge">BITS Pilani Finalist</span>
+                        <h3>APOGEE GameJam 2026</h3>
+                        <p class="achievement-org">BITS Pilani National Fest</p>
+                        <p class="achievement-desc">National finalist for designing and prototyping an interactive, high-performance game experience under strict timed constraints.</p>
+                    </div>
+                </div>
+
+                <div class="card achievement-card highlight-pink">
+                    <div class="achievement-icon-wrapper">
+                        <i class="fa-solid fa-city achievement-icon"></i>
+                    </div>
+                    <div class="achievement-body">
+                        <span class="achievement-badge">Government Internship</span>
+                        <h3>GCC Smart City Operations</h3>
+                        <p class="achievement-org">Greater Chennai Corporation (ICCC)</p>
+                        <p class="achievement-desc">Engineered real-time telemetry dashboards and IoT spatial monitoring systems for municipal command operations.</p>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
         <!-- About Section -->
@@ -83,7 +141,7 @@
                 
                 <div class="about-text">
                     <p class="about-desc">
-                        Pre-final year <strong>B.Tech AI & Data Science</strong> student engineering full-stack AI applications, high-performance web interfaces, and computer vision systems. Focused on building scalable, zero-latency digital solutions that combine cutting-edge generative AI models with resilient backend architectures.
+                        Final-year <strong>B.Tech AI & Data Science</strong> student engineering scalable AI backends, high-performance web interfaces, and computer vision systems. Focused on building zero-latency, 2G-optimized digital solutions that combine cutting-edge LLMs with resilient microservices.
                     </p>
                     
                     <h3 class="edu-title">Education:</h3>
@@ -105,7 +163,7 @@
 
         <!-- Projects Section -->
         <section id="projects" class="section">
-            <h2 class="section-title">Projects</h2>
+            <h2 class="section-title">Projects Showcase</h2>
             
             <div class="filter-container">
                 <button class="filter-btn active" data-filter="all">All</button>
@@ -123,52 +181,36 @@
                         <div class="project-badges">
                             <span class="badge-tech">FastAPI</span>
                             <span class="badge-tech">Gemini API</span>
-                            <span class="badge-tech">Voice Intent</span>
+                            <span class="badge-tech">2G Optimized</span>
                         </div>
                         <h3>Agri AI</h3>
                         <p class="project-summary">Engineered an enterprise-grade voice-intent farming assistant for Tamil Nadu, reducing query latency by 45% over 2G network constraints using async FastAPI queues.</p>
                         <div class="card-actions">
-                            <button class="btn btn-black btn-details">View Details</button>
+                            <button class="btn btn-black btn-details">View Case Study</button>
                             <a href="https://agriai-frontend-57v0.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn btn-live" onclick="event.stopPropagation()">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             <a href="https://github.com/haroon2109/AgriAI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <!-- To Do List -->
-                <div class="card project-card" data-project="todo-list" data-category="web">
-                    <img src="assets/todo-list.png" alt="To Do List" class="project-img">
-                    <div class="project-card-content">
-                        <div class="project-badges">
-                            <span class="badge-tech">React 18</span>
-                            <span class="badge-tech">Vite</span>
-                            <span class="badge-tech">Tailwind</span>
-                        </div>
-                        <h3>Pro-Flow Productivity Engine</h3>
-                        <p class="project-summary">Built a high-performance productivity engine implementing Eisenhower matrix priority queueing and Pomodoro timers, accelerating task workflow speed by 3x.</p>
-                        <div class="card-actions">
-                            <button class="btn btn-black btn-details">View Details</button>
-                            <a href="https://to-do-list-amber-rho.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-live" onclick="event.stopPropagation()">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="https://github.com/haroon2109/To-Do-list" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i></a>
-                        </div>
+                <!-- Kagaz-AI -->
+                <div class="card project-card" data-project="kagaz-ai" data-category="ai">
+                    <div class="cert-fallback-badge" style="background:#00D1FF; min-height:220px; border-bottom:4px solid #000">
+                        <i class="fa-solid fa-file-contract cert-fallback-icon" style="font-size:3.5rem"></i>
+                        <h4 style="font-size:1.4rem">Kagaz-AI</h4>
+                        <p style="font-size:0.95rem">Multi-Document Intelligence & OCR</p>
                     </div>
-                </div>
-
-                <!-- Wifi QR Pass -->
-                <div class="card project-card" data-project="wifi-qr" data-category="tool">
-                    <img src="assets/wifi-qr.png" alt="Wifi QR Pass" class="project-img">
                     <div class="project-card-content">
                         <div class="project-badges">
-                            <span class="badge-tech">JavaScript</span>
-                            <span class="badge-tech">Client-Side QR</span>
-                            <span class="badge-tech">Printable UI</span>
+                            <span class="badge-tech">Python</span>
+                            <span class="badge-tech">OCR Engine</span>
+                            <span class="badge-tech">Vector Search</span>
                         </div>
-                        <h3>Wifi QR Pass Generator</h3>
-                        <p class="project-summary">Designed zero-latency client-side network card generator that formats encrypted WiFi credentials into printable, instant QR guest cards with 100% data privacy.</p>
+                        <h3>Kagaz-AI (Document Intelligence)</h3>
+                        <p class="project-summary">Architected a multilingual document extraction and summarization suite, accelerating regional paperwork analysis speed by 4x with zero data loss.</p>
                         <div class="card-actions">
-                            <button class="btn btn-black btn-details">View Details</button>
-                            <a href="https://haroon2109.github.io/WIFI-QR-PASS/" target="_blank" rel="noopener noreferrer" class="btn btn-live" onclick="event.stopPropagation()">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="https://github.com/haroon2109/WIFI-QR-PASS" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i></a>
+                            <button class="btn btn-black btn-details">View Case Study</button>
+                            <a href="https://github.com/haroon2109/Kagaz-AI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -185,7 +227,7 @@
                         <h3>Artisan AI Studio</h3>
                         <p class="project-summary">Developed a multimodal AI creative suite leveraging Google Gemini API, enabling local artisans to auto-generate marketing visual assets in under 5 seconds.</p>
                         <div class="card-actions">
-                            <button class="btn btn-black btn-details">View Details</button>
+                            <button class="btn btn-black btn-details">View Case Study</button>
                             <a href="https://haroon2109.github.io/Artisan-AI/" target="_blank" rel="noopener noreferrer" class="btn btn-live" onclick="event.stopPropagation()">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             <a href="https://github.com/haroon2109/Artisan-AI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i></a>
                         </div>
@@ -204,7 +246,7 @@
                         <h3>FRAS (Biometric Attendance System)</h3>
                         <p class="project-summary">Engineered an automated face recognition attendance tracker using OpenCV facial embeddings, achieving 98.4% accuracy at 30 FPS processing directly on edge CPU devices.</p>
                         <div class="card-actions">
-                            <button class="btn btn-black btn-details">View Details</button>
+                            <button class="btn btn-black btn-details">View Case Study</button>
                             <a href="https://github.com/haroon2109/Face-Recognition-Attendance-System" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i> GitHub</a>
                         </div>
                     </div>

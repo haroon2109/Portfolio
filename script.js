@@ -161,21 +161,13 @@ document.addEventListener("DOMContentLoaded", () => {
             github: 'https://github.com/haroon2109/AgriAI',
             live: 'https://agriai-frontend-57v0.onrender.com/'
         },
-        'todo-list': {
-            title: 'Pro-Flow Productivity Engine',
-            img: 'assets/todo-list.png',
-            tags: ['React 18', 'Vite', 'Tailwind CSS', 'Eisenhower Matrix', 'Local State Machine'],
-            desc: 'Architected a production-grade task optimization app combining the Eisenhower Matrix priority scoring model and Pomodoro focus timers. Accelerated task creation and queue processing throughput by 3x with zero-dependency local state persistence and responsive Neo Brutalist interaction design.',
-            github: 'https://github.com/haroon2109/To-Do-list',
-            live: 'https://to-do-list-amber-rho.vercel.app/'
-        },
-        'wifi-qr': {
-            title: 'Wifi QR Pass Generator',
-            img: 'assets/wifi-qr.png',
-            tags: ['JavaScript (ES6+)', 'Tailwind CSS', 'Client-side Encryption', 'Printable Canvas'],
-            desc: 'Designed a high-security, zero-server-dependency client-side application that converts encrypted network credentials into instant, printable WiFi guest access cards. Achieves 0ms network latency and 100% data privacy by executing all cryptographic rendering directly in the browser runtime.',
-            github: 'https://github.com/haroon2109/WIFI-QR-PASS',
-            live: 'https://haroon2109.github.io/WIFI-QR-PASS/'
+        'kagaz-ai': {
+            title: 'Kagaz-AI — Multilingual Document Intelligence & OCR Suite',
+            img: 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%2300D1FF\'/><text x=\'50%\' y=\'45%\' font-family=\'sans-serif\' font-size=\'36\' fill=\'%23000\' font-weight=\'900\' text-anchor=\'middle\'>Kagaz-AI</text><text x=\'50%\' y=\'60%\' font-family=\'sans-serif\' font-size=\'18\' fill=\'%23000\' font-weight=\'bold\' text-anchor=\'middle\'>Multi-Document Intelligence Suite</text></svg>',
+            tags: ['Python', 'Tesseract OCR', 'LangChain', 'Vector Database', 'FastAPI', 'Multilingual NLU'],
+            desc: 'Architected Kagaz-AI, a high-throughput multilingual document extraction and intelligent summarization pipeline. Designed specifically for regional Indian language paperwork workflows, reducing manual document audit times by 4x using hybrid Tesseract OCR preprocessing, dense vector embeddings, and LLM query orchestration.',
+            github: 'https://github.com/haroon2109/Kagaz-AI',
+            live: ''
         },
         'artisan-ai': {
             title: 'Artisan AI Multimodal Studio',
