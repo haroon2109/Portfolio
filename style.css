@@ -232,21 +232,51 @@ header {
     border: var(--border-width) solid var(--border-color);
     box-shadow: 12px 12px 0px var(--border-color);
     padding: 50px;
+    gap: 40px;
 }
 
 .hero-left {
-    flex: 1.1;
-    min-width: 0;
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
 }
 
 .main-title {
-    font-size: clamp(2.5rem, 4vw, 4rem);
+    font-size: clamp(2.4rem, 4.2vw, 3.8rem);
     font-weight: 900;
     line-height: 0.95;
     letter-spacing: -2px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     word-break: break-word;
+}
+
+.hero-subtext {
+    font-size: 0.98rem;
+    font-weight: 600;
+    margin-bottom: 22px;
+    background: #fff;
+    padding: 14px 18px;
+    border: 3px solid var(--border-color);
+    box-shadow: 4px 4px 0px var(--border-color);
+    line-height: 1.5;
+    color: var(--text-primary);
+}
+
+.hero-ctas {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.hero-right {
+    flex: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-center {
@@ -276,46 +306,6 @@ header {
     object-fit: cover;
     object-position: top center;
     z-index: 2;
-}
-
-.hero-right {
-    flex: 0.8;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.sub-title {
-    font-size: 1.8rem;
-    font-weight: 800;
-    line-height: 1.2;
-    text-transform: uppercase;
-    background: var(--text-pink);
-    padding: 10px 15px;
-    border: var(--border-width) solid var(--border-color);
-    display: inline-block;
-    transform: rotate(1deg);
-    box-shadow: 4px 4px 0px var(--border-color);
-}
-
-.hero-subtext {
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 15px 0;
-    background: #fff;
-    padding: 12px 18px;
-    border: 3px solid var(--border-color);
-    box-shadow: 4px 4px 0px var(--border-color);
-    line-height: 1.4;
-}
-
-.hero-ctas {
-    display: flex;
-    gap: 12px;
-    margin-top: 10px;
-    flex-wrap: wrap;
-    justify-content: flex-end;
 }
 
 .btn-resume {
