@@ -178,12 +178,12 @@ document.addEventListener("DOMContentLoaded", () => {
             live: 'https://agriai-frontend-57v0.onrender.com/'
         },
         'kagaz-ai': {
-            title: 'Kagaz-AI — Multilingual Document Intelligence & OCR Suite',
-            img: 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%2300D1FF\'/><text x=\'50%\' y=\'45%\' font-family=\'sans-serif\' font-size=\'36\' fill=\'%23000\' font-weight=\'900\' text-anchor=\'middle\'>Kagaz-AI</text><text x=\'50%\' y=\'60%\' font-family=\'sans-serif\' font-size=\'18\' fill=\'%23000\' font-weight=\'bold\' text-anchor=\'middle\'>Multi-Document Intelligence Suite</text></svg>',
-            tags: ['Python', 'Tesseract OCR', 'LangChain', 'Vector Database', 'FastAPI', 'Multilingual NLU'],
-            desc: 'Architected Kagaz-AI, a high-throughput multilingual document extraction and intelligent summarization pipeline. Designed specifically for regional Indian language paperwork workflows, reducing manual document audit times by 4x using hybrid Tesseract OCR preprocessing, dense vector embeddings, and LLM query orchestration.',
+            title: '📄 KAGAZ-AI — AI-Powered Multimodal Worksheet Evaluation & Pedagogical Analytics',
+            img: 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%2300D1FF\'/><text x=\'50%\' y=\'40%\' font-family=\'sans-serif\' font-size=\'36\' fill=\'%23000\' font-weight=\'900\' text-anchor=\'middle\'>KAGAZ-AI</text><text x=\'50%\' y=\'55%\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%23000\' font-weight=\'bold\' text-anchor=\'middle\'>🏆 Google.org &amp; Wadhwani AI Top 30 National Finalist</text><text x=\'50%\' y=\'70%\' font-family=\'sans-serif\' font-size=\'14\' fill=\'%23000\' text-anchor=\'middle\'>Gemini 1.5 Flash • Celery + Redis • FastAPI • Next.js</text></svg>',
+            tags: ['FastAPI', 'Gemini 1.5 Flash', 'Celery + Redis', 'Next.js', 'PostgreSQL', 'Google.org Top 30', 'Multimodal Vision AI'],
+            desc: 'Engineered an end-to-end vision-to-text platform using Gemini 1.5 Flash to autonomously evaluate messy handwritten student worksheets, detect learning gaps, and surface macro classroom analytics—offloading heavy compute via Celery + Redis. Recognized as a Top 30 National Finalist in SahAI for Shiksha (backed by Google.org & Wadhwani AI).',
             github: 'https://github.com/haroon2109/Kagaz-AI',
-            live: ''
+            live: 'https://kagaz-ai.vercel.app/'
         },
         'artisan-ai': {
             title: 'Artisan AI Multimodal Studio',
