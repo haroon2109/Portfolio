@@ -161,6 +161,14 @@ document.addEventListener("DOMContentLoaded", () => {
             github: 'https://github.com/haroon2109/Sukoon-AI',
             live: 'https://sukoon-ai-pied.vercel.app/'
         },
+        'relief-grid': {
+            title: 'ReliefGrid — Disaster Relief Coordination & Resource Mapping Platform',
+            img: 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%23FF60B5\'/><text x=\'50%\' y=\'45%\' font-family=\'sans-serif\' font-size=\'36\' fill=\'%23fff\' font-weight=\'900\' text-anchor=\'middle\'>ReliefGrid</text><text x=\'50%\' y=\'60%\' font-family=\'sans-serif\' font-size=\'18\' fill=\'%23fff\' font-weight=\'bold\' text-anchor=\'middle\'>Disaster Relief Spatial Mapping</text></svg>',
+            tags: ['Python', 'GeoJSON', 'Spatial Mapping', 'Resource Logistics', 'FastAPI', 'Disaster Relief'],
+            desc: 'Architected ReliefGrid, an emergency spatial telemetry and aid distribution management platform. Enables first responders and municipal teams to map active shelter capacities, track essential supply lines, and optimize rescue routing during natural disasters.',
+            github: 'https://github.com/haroon2109/ReliefGrid',
+            live: ''
+        },
         'agri-ai': {
             title: 'Agri AI — Enterprise Voice-Intent Agriculture Platform',
             img: 'assets/agri-ai.png',
