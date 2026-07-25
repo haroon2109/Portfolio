@@ -1012,6 +1012,7 @@ header {
     display: grid;
     grid-template-columns: 1.2fr 0.8fr;
     gap: 40px;
+    align-items: stretch;
 }
 
 .contact-cta-card {
@@ -1055,13 +1056,22 @@ header {
 
 .contact-info-card {
     background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px 30px;
+}
+
+.info-block {
+    margin-bottom: 18px;
 }
 
 .info-label {
     font-family: var(--font-mono);
     text-transform: uppercase;
-    color: var(--text-pink);
-    margin-bottom: 5px;
+    color: #FF1493 !important;
+    font-weight: 800;
+    margin-bottom: 4px;
 }
 
 .social-links {
