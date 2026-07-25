@@ -181,7 +181,70 @@ document.addEventListener("DOMContentLoaded", () => {
             title: '📄 KAGAZ-AI — AI-Powered Multimodal Worksheet Evaluation & Pedagogical Analytics',
             img: 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%2300D1FF\'/><text x=\'50%\' y=\'40%\' font-family=\'sans-serif\' font-size=\'36\' fill=\'%23000\' font-weight=\'900\' text-anchor=\'middle\'>KAGAZ-AI</text><text x=\'50%\' y=\'55%\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%23000\' font-weight=\'bold\' text-anchor=\'middle\'>🏆 Google.org &amp; Wadhwani AI Top 30 National Finalist</text><text x=\'50%\' y=\'70%\' font-family=\'sans-serif\' font-size=\'14\' fill=\'%23000\' text-anchor=\'middle\'>Gemini 1.5 Flash • Celery + Redis • FastAPI • Next.js</text></svg>',
             tags: ['FastAPI', 'Gemini 1.5 Flash', 'Celery + Redis', 'Next.js', 'PostgreSQL', 'Google.org Top 30', 'Multimodal Vision AI'],
-            desc: 'Engineered an end-to-end vision-to-text platform using Gemini 1.5 Flash to autonomously evaluate messy handwritten student worksheets, detect learning gaps, and surface macro classroom analytics—offloading heavy compute via Celery + Redis. Recognized as a Top 30 National Finalist in SahAI for Shiksha (backed by Google.org & Wadhwani AI).',
+            desc: 'Engineered an end-to-end vision-to-text platform using Gemini 1.5 Flash to autonomously evaluate messy handwritten student worksheets, detect learning gaps, and surface macro classroom analytics—offloading heavy compute via Celery + Redis.',
+            detailsHTML: `
+                <div style="background: #E6F9F2; border: 2px solid #000; box-shadow: 3px 3px 0px #000; padding: 12px 16px; border-radius: 6px; font-weight: 800; font-size: 0.95rem; color: #047857; margin-bottom: 20px;">
+                    🏆 Recognized as a Top 30 National Finalist in SahAI for Shiksha (Backed by Google.org & Wadhwani AI)
+                </div>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:20px; margin-bottom:10px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">📌 Project Overview & Purpose</h4>
+                <p style="line-height:1.6; margin-bottom:14px;">Kagaz-AI is an advanced full-stack AI platform engineered to bridge physical educational materials and digital analytics. Built for teachers and academic institutions, the system processes uploaded or captured handwritten student worksheets, applies localized optical character recognition (OCR), autonomously evaluates structural math and text answers, detects student pedagogical gaps, and surfaces comprehensive classroom intelligence.</p>
+                <p style="line-height:1.6; margin-bottom:20px;">Instead of relying on rigid, resource-heavy legacy OCR pipelines that fail on handwritten documents, Kagaz-AI utilizes an <strong>End-to-End Multimodal Vision-to-Text Architecture via Gemini 1.5 Flash</strong>.</p>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">🚀 Key Architectural Features</h4>
+                <ul style="list-style:none; padding:0; margin:0 0 24px 0; display:grid; gap:10px;">
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#FF1493;">📷 Multi-Modal Worksheet Ingestion:</strong> Supports direct camera capture compression algorithms or bulk image uploads for handwritten assignments.
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#00D1FF;">🧠 AI-Powered Vision-to-Text:</strong> Eliminates cascading OCR errors and achieves near-human accuracy on unstructured handwriting in a single inference cycle by utilizing an End-to-End Multimodal Vision-to-Text Architecture.
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#10B981;">⚡ Compute Offloading (Celery + Redis):</strong> Leverages Celery backend queues to smoothly process complex image extraction tasks and offload heavy visual computation to Google's specialized TPU infrastructure without stalling client requests.
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#8A2BE2;">📊 Pedagogical Gap Analysis:</strong> Goes beyond generic pass/fail grading by extracting deeper student learning behaviors, specific error tracking, and macro dashboard analytics for whole classes.
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#FFB020;">🌐 Zero-Shot Adaptability & Multi-Lingual:</strong> Handles unstructured document layouts instantly without extra training data and features local indexing capabilities for offline environments.
+                    </li>
+                </ul>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">🛠️ End-to-End Data Processing Flow</h4>
+                <div style="background:#000; color:#00D1FF; padding:16px; border-radius:6px; font-family:monospace; font-size:0.85rem; line-height:1.7; overflow-x:auto; margin-bottom:24px; border:2px solid #000; box-shadow:4px 4px 0px #FFD100;">
+                    1. [Next.js Client] ➔ Upload handwritten worksheet / Camera Capture<br>
+                    2. [FastAPI Router] ➔ POST Document Image payload to REST endpoint<br>
+                    3. [FastAPI Router] ➔ Offload vision inference task to Celery Queue<br>
+                    4. [Redis Broker]   ➔ Manage async task state & broker messaging<br>
+                    5. [Celery Worker]  ➔ Execute Vision-to-Text inference via Gemini 1.5 Flash<br>
+                    6. [Gemini 1.5]     ➔ Extract text, grade answers & detect learning gaps<br>
+                    7. [Celery Worker]  ➔ Persist structured results to PostgreSQL (Supabase)<br>
+                    8. [FastAPI Router] ➔ Query parsed analysis results from database<br>
+                    9. [Next.js UI]     ➔ Render interactive teacher dashboard & macro analytics
+                </div>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">🛠️ Technology Stack Breakdown</h4>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:20px;">
+                    <div style="background:#FAFAFA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:14px; border-radius:6px;">
+                        <h5 style="font-weight:900; font-size:0.95rem; margin-bottom:8px; color:#FF1493;">⚙️ Backend & Async Engine</h5>
+                        <ul style="margin:0; padding-left:18px; font-size:0.88rem; line-height:1.6;">
+                            <li><strong>FastAPI (Python 3.10)</strong>: High-throughput async REST endpoints</li>
+                            <li><strong>Celery + Redis</strong>: Distributed background worker queues</li>
+                            <li><strong>PostgreSQL (Supabase)</strong>: Relational schema persistence</li>
+                            <li><strong>Google Gemini 1.5 Flash</strong>: Vision-to-Text AI model</li>
+                        </ul>
+                    </div>
+                    <div style="background:#FAFAFA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:14px; border-radius:6px;">
+                        <h5 style="font-weight:900; font-size:0.95rem; margin-bottom:8px; color:#00D1FF;">🖥️ Frontend & Analytics Dashboard</h5>
+                        <ul style="margin:0; padding-left:18px; font-size:0.88rem; line-height:1.6;">
+                            <li><strong>Next.js (App Router)</strong>: Server-rendered React client</li>
+                            <li><strong>Tailwind CSS & shadcn/ui</strong>: Clean UI design system</li>
+                            <li><strong>Recharts</strong>: Dynamic classroom performance charts</li>
+                            <li><strong>Vercel Edge Platform</strong>: Global CDN deployment</li>
+                        </ul>
+                    </div>
+                </div>
+            `,
             github: 'https://github.com/haroon2109/Kagaz-AI',
             live: 'https://kagaz-ai.vercel.app/'
         },
@@ -221,7 +284,7 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById('modal-title').textContent = data.title;
             document.getElementById('modal-img').src = data.img;
             document.getElementById('modal-img').alt = data.title;
-            document.getElementById('modal-desc').textContent = data.desc;
+            document.getElementById('modal-desc').innerHTML = data.detailsHTML || data.desc;
 
             const tagsContainer = document.getElementById('modal-tags');
             tagsContainer.innerHTML = '';
