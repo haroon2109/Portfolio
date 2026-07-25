@@ -479,14 +479,14 @@ header {
 }
 
 .achievement-org {
-    font-family: var(--font-sans);
-    font-size: 0.82rem;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
     font-weight: 800;
-    color: #0F172A;
-    background: rgba(0, 0, 0, 0.06);
-    border: 1.5px solid #000000;
-    padding: 3px 10px;
-    border-radius: 6px;
+    color: #FF1493;
+    background: #FFF0F7;
+    border: 2px solid #000000;
+    padding: 4px 10px;
+    box-shadow: 2px 2px 0px #000000;
     display: inline-block;
     margin-bottom: 12px;
 }
