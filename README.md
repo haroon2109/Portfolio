@@ -2,6 +2,8 @@
 
 A high-impact, interactive personal portfolio built with a **Neo Brutalist** design philosophy. Designed for visual excellence, this portfolio showcases my expertise in **AI & Data Science** and **Full-Stack Development**.
 
+🌐 **Live Demo**: [https://portfolio.mdharoon.workers.dev/](https://portfolio.mdharoon.workers.dev/)
+
 ![Portfolio Preview Assets](https://img.shields.io/badge/Design-Neo_Brutalism-FFD100?style=for-the-badge&logoColor=black)
 ![Tech Stack](https://img.shields.io/badge/Tech-HTML5_|_CSS3_|_JS-blue?style=for-the-badge)
 
