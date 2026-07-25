@@ -13,6 +13,9 @@
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Devicon CDN (Official Tech Stack Icons) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 <body>
     
@@ -58,13 +61,13 @@
                     <!-- Profile Image -->
                     <img src="assets/hero-profile.png" alt="Mohamed Haroon" class="profile-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'350\' height=\'450\' viewBox=\'0 0 350 450\'><rect width=\'100%\' height=\'100%\' fill=\'%23f24987\' fill-opacity=\'0.2\' rx=\'20\'/><text x=\'50%\' y=\'50%\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%23333\' font-weight=\'bold\' text-anchor=\'middle\' dominant-baseline=\'middle\'>hero-profile.png</text></svg>';">
                     
-                    <!-- Floating Tech Badges -->
+                    <!-- Floating Tech Badges (Official Devicons) -->
                     <div class="floating-tech-badges">
-                        <span class="floating-badge badge-python"><i class="fa-brands fa-python"></i> Python</span>
-                        <span class="floating-badge badge-next"><i class="fa-solid fa-cubes"></i> Next.js</span>
-                        <span class="floating-badge badge-fastapi"><i class="fa-solid fa-bolt"></i> FastAPI</span>
-                        <span class="floating-badge badge-opencv"><i class="fa-solid fa-eye"></i> OpenCV</span>
-                        <span class="floating-badge badge-pytorch"><i class="fa-solid fa-brain"></i> PyTorch</span>
+                        <span class="floating-badge badge-python"><i class="devicon-python-plain colored"></i> Python</span>
+                        <span class="floating-badge badge-next"><i class="devicon-nextjs-original"></i> Next.js</span>
+                        <span class="floating-badge badge-fastapi"><i class="devicon-fastapi-plain colored"></i> FastAPI</span>
+                        <span class="floating-badge badge-opencv"><i class="devicon-opencv-plain colored"></i> OpenCV</span>
+                        <span class="floating-badge badge-pytorch"><i class="devicon-pytorch-original colored"></i> PyTorch</span>
                     </div>
                 </div>
 
@@ -176,11 +179,21 @@
                 
                 <!-- Agri AI -->
                 <div class="card project-card" data-project="agri-ai" data-category="ai">
-                    <img src="assets/agri-ai.png" alt="Agri AI" class="project-img">
+                    <div class="browser-mockup">
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="browser-url">agriai-frontend.onrender.com</div>
+                        </div>
+                        <img src="assets/agri-ai.png" alt="Agri AI" class="project-img">
+                    </div>
                     <div class="project-card-content">
                         <div class="project-badges">
-                            <span class="badge-tech">FastAPI</span>
-                            <span class="badge-tech">Gemini API</span>
+                            <span class="badge-tech"><i class="devicon-fastapi-plain colored"></i> FastAPI</span>
+                            <span class="badge-tech"><i class="devicon-google-plain colored"></i> Gemini API</span>
                             <span class="badge-tech">2G Optimized</span>
                         </div>
                         <h3>Agri AI</h3>
@@ -188,21 +201,31 @@
                         <div class="card-actions">
                             <button class="btn btn-black btn-details">View Case Study</button>
                             <a href="https://agriai-frontend-57v0.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn btn-live" onclick="event.stopPropagation()">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="https://github.com/haroon2109/AgriAI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/haroon2109/AgriAI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="devicon-github-original"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Kagaz-AI -->
                 <div class="card project-card" data-project="kagaz-ai" data-category="ai">
-                    <div class="cert-fallback-badge" style="background:#00D1FF; min-height:220px; border-bottom:4px solid #000">
-                        <i class="fa-solid fa-file-contract cert-fallback-icon" style="font-size:3.5rem"></i>
-                        <h4 style="font-size:1.4rem">Kagaz-AI</h4>
-                        <p style="font-size:0.95rem">Multi-Document Intelligence & OCR</p>
+                    <div class="browser-mockup">
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="browser-url">github.com/haroon2109/Kagaz-AI</div>
+                        </div>
+                        <div class="cert-fallback-badge" style="background:#00D1FF; min-height:200px">
+                            <i class="fa-solid fa-file-contract cert-fallback-icon" style="font-size:3.5rem"></i>
+                            <h4 style="font-size:1.4rem">Kagaz-AI</h4>
+                            <p style="font-size:0.95rem">Multi-Document Intelligence & OCR</p>
+                        </div>
                     </div>
                     <div class="project-card-content">
                         <div class="project-badges">
-                            <span class="badge-tech">Python</span>
+                            <span class="badge-tech"><i class="devicon-python-plain colored"></i> Python</span>
                             <span class="badge-tech">OCR Engine</span>
                             <span class="badge-tech">Vector Search</span>
                         </div>
@@ -210,18 +233,28 @@
                         <p class="project-summary">Architected a multilingual document extraction and summarization suite, accelerating regional paperwork analysis speed by 4x with zero data loss.</p>
                         <div class="card-actions">
                             <button class="btn btn-black btn-details">View Case Study</button>
-                            <a href="https://github.com/haroon2109/Kagaz-AI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="https://github.com/haroon2109/Kagaz-AI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="devicon-github-original"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Artisan AI -->
                 <div class="card project-card" data-project="artisan-ai" data-category="ai">
-                    <img src="assets/artisan-ai.png" alt="Artisan AI" class="project-img">
+                    <div class="browser-mockup">
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="browser-url">haroon2109.github.io/Artisan-AI</div>
+                        </div>
+                        <img src="assets/artisan-ai.png" alt="Artisan AI" class="project-img">
+                    </div>
                     <div class="project-card-content">
                         <div class="project-badges">
-                            <span class="badge-tech">Streamlit</span>
-                            <span class="badge-tech">Google Gemini</span>
+                            <span class="badge-tech"><i class="devicon-python-plain colored"></i> Streamlit</span>
+                            <span class="badge-tech"><i class="devicon-google-plain colored"></i> Gemini Pro</span>
                             <span class="badge-tech">Multimodal</span>
                         </div>
                         <h3>Artisan AI Studio</h3>
@@ -229,25 +262,35 @@
                         <div class="card-actions">
                             <button class="btn btn-black btn-details">View Case Study</button>
                             <a href="https://haroon2109.github.io/Artisan-AI/" target="_blank" rel="noopener noreferrer" class="btn btn-live" onclick="event.stopPropagation()">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="https://github.com/haroon2109/Artisan-AI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/haroon2109/Artisan-AI" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="devicon-github-original"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <!-- FRAS -->
                 <div class="card project-card" data-project="fras" data-category="ai">
-                    <img src="assets/fras_vector.png" alt="FRAS" class="project-img">
+                    <div class="browser-mockup">
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="browser-url">github.com/haroon2109/FRAS</div>
+                        </div>
+                        <img src="assets/fras_vector.png" alt="FRAS" class="project-img">
+                    </div>
                     <div class="project-card-content">
                         <div class="project-badges">
-                            <span class="badge-tech">OpenCV</span>
-                            <span class="badge-tech">Python</span>
+                            <span class="badge-tech"><i class="devicon-opencv-plain colored"></i> OpenCV</span>
+                            <span class="badge-tech"><i class="devicon-python-plain colored"></i> Python</span>
                             <span class="badge-tech">Biometrics</span>
                         </div>
                         <h3>FRAS (Biometric Attendance System)</h3>
                         <p class="project-summary">Engineered an automated face recognition attendance tracker using OpenCV facial embeddings, achieving 98.4% accuracy at 30 FPS processing directly on edge CPU devices.</p>
                         <div class="card-actions">
                             <button class="btn btn-black btn-details">View Case Study</button>
-                            <a href="https://github.com/haroon2109/Face-Recognition-Attendance-System" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="https://github.com/haroon2109/Face-Recognition-Attendance-System" target="_blank" rel="noopener noreferrer" class="btn btn-github" onclick="event.stopPropagation()"><i class="devicon-github-original"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -261,37 +304,37 @@
             <div class="skills-grid">
                 
                 <div class="card skill-card">
-                    <i class="fa-solid fa-microchip skill-icon"></i>
+                    <i class="devicon-python-plain colored skill-icon"></i>
                     <h3>Core Computer Science</h3>
                     <p>Data Structures & Algorithms, System Design, REST APIs, Object-Oriented Programming (OOP)</p>
                 </div>
 
                 <div class="card skill-card">
-                    <i class="fa-solid fa-brain skill-icon"></i>
+                    <i class="devicon-pytorch-original colored skill-icon"></i>
                     <h3>AI & Machine Learning</h3>
                     <p>PyTorch, Scikit-learn, OpenCV, Google Gemini API, Prompt Engineering, Vector Embeddings</p>
                 </div>
 
                 <div class="card skill-card">
-                    <i class="fa-solid fa-layer-group skill-icon"></i>
+                    <i class="devicon-react-original colored skill-icon"></i>
                     <h3>Full-Stack Web Dev</h3>
-                    <p>React 18, Node.js, FastAPI, JavaScript (ES6+), HTML5, CSS3 (Modular & Neo Brutalist)</p>
+                    <p>React 18, Node.js, FastAPI, Next.js, JavaScript (ES6+), HTML5/CSS3</p>
                 </div>
 
                 <div class="card skill-card">
-                    <i class="fa-solid fa-code skill-icon"></i>
+                    <i class="devicon-postgresql-plain colored skill-icon"></i>
                     <h3>Programming & Data</h3>
-                    <p>Python, SQL, C, R, MongoDB, Data Wrangling, Feature Engineering</p>
+                    <p>Python, SQL, PostgreSQL, C, R, MongoDB, Data Wrangling, Feature Engineering</p>
                 </div>
 
                 <div class="card skill-card">
-                    <i class="fa-solid fa-toolbox skill-icon"></i>
+                    <i class="devicon-docker-plain colored skill-icon"></i>
                     <h3>Developer Tools & Cloud</h3>
-                    <p>Git, GitHub, Docker, Figma, Power BI, Render, Vercel</p>
+                    <p>Git, GitHub Actions, Docker, Figma, Power BI, Render, Vercel</p>
                 </div>
 
                 <div class="card skill-card">
-                    <i class="fa-solid fa-trophy skill-icon"></i>
+                    <i class="devicon-git-plain colored skill-icon"></i>
                     <h3>Engineering Practice</h3>
                     <p>Agile Problem Solving, Hackathon Prototyping, Technical Communication, UX Ergonomics</p>
                 </div>
