@@ -179,12 +179,16 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         'kagaz-ai': {
             title: '📄 KAGAZ-AI — AI-Powered Multimodal Worksheet Evaluation & Pedagogical Analytics',
-            img: 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%2300D1FF\'/><text x=\'50%\' y=\'40%\' font-family=\'sans-serif\' font-size=\'36\' fill=\'%23000\' font-weight=\'900\' text-anchor=\'middle\'>KAGAZ-AI</text><text x=\'50%\' y=\'55%\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%23000\' font-weight=\'bold\' text-anchor=\'middle\'>🏆 Google.org &amp; Wadhwani AI Top 30 National Finalist</text><text x=\'50%\' y=\'70%\' font-family=\'sans-serif\' font-size=\'14\' fill=\'%23000\' text-anchor=\'middle\'>Gemini 1.5 Flash • Celery + Redis • FastAPI • Next.js</text></svg>',
+            img: 'assets/kagaz-ai-architecture.png',
             tags: ['FastAPI', 'Gemini 1.5 Flash', 'Celery + Redis', 'Next.js', 'PostgreSQL', 'Google.org Top 30', 'Multimodal Vision AI'],
             desc: 'Engineered an end-to-end vision-to-text platform using Gemini 1.5 Flash to autonomously evaluate messy handwritten student worksheets, detect learning gaps, and surface macro classroom analytics—offloading heavy compute via Celery + Redis.',
             detailsHTML: `
                 <div style="background: #E6F9F2; border: 2px solid #000; box-shadow: 3px 3px 0px #000; padding: 12px 16px; border-radius: 6px; font-weight: 800; font-size: 0.95rem; color: #047857; margin-bottom: 20px;">
                     🏆 Recognized as a Top 30 National Finalist in SahAI for Shiksha (Backed by Google.org & Wadhwani AI)
+                </div>
+
+                <div style="margin-bottom: 24px;">
+                    <img src="assets/kagaz-ai-architecture.png" alt="Kagaz-AI Full Multimodal Architecture Infographic" style="width: 100%; border: 3px solid #000; box-shadow: 5px 5px 0px #000; border-radius: 6px;">
                 </div>
 
                 <h4 style="font-size:1.15rem; font-weight:900; margin-top:20px; margin-bottom:10px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">📌 Project Overview & Purpose</h4>
