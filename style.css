@@ -1045,6 +1045,52 @@ header {
     background: #fff;
 }
 
+.recruiter-verify-badge {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #000;
+    color: #fff;
+    padding: 16px;
+    border: var(--border-width) solid var(--border-color);
+    box-shadow: 4px 4px 0px var(--border-color);
+    margin-bottom: 25px;
+}
+
+.recruiter-verify-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #00D1FF;
+    box-shadow: 0 0 12px rgba(0, 209, 255, 0.5);
+    object-fit: cover;
+    object-position: top center;
+    flex-shrink: 0;
+}
+
+.verify-status-pill {
+    display: inline-block;
+    color: #34D399;
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.recruiter-verify-info h4 {
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.recruiter-verify-info p {
+    font-size: 0.8rem;
+    color: #00D1FF;
+    font-weight: 700;
+}
+
 .info-label {
     font-family: var(--font-mono);
     text-transform: uppercase;
