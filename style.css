@@ -363,6 +363,11 @@ header {
     border-color: #000;
 }
 
+.highlight-green {
+    background: #F0FFF4;
+    border-color: #000;
+}
+
 .achievement-icon-wrapper {
     background: #fff;
     border: 3px solid #000;
