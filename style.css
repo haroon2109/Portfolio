@@ -132,7 +132,20 @@ header {
     z-index: 2;
     border-radius: 18px;
     border: 2px solid rgba(56, 189, 248, 0.4);
-    transition: transform 0.3s ease;
+    transition: opacity 0.4s ease, transform 0.3s ease;
+}
+
+.profile-img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.hero-center:hover .profile-img-hover {
+    opacity: 1;
 }
 
 .nav-links {
@@ -584,6 +597,30 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top center;
+}
+
+.flip-badge {
+    position: absolute;
+    bottom: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #000;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 5px 14px;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 0px #000;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 5;
+    letter-spacing: 0.5px;
+}
+
+.flip-badge-back {
+    background: #00D1FF;
+    color: #000;
 }
 
 .about-text {
