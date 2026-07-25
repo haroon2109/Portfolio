@@ -358,6 +358,11 @@ header {
     border-color: #000;
 }
 
+.highlight-purple {
+    background: #F8F0FF;
+    border-color: #000;
+}
+
 .achievement-icon-wrapper {
     background: #fff;
     border: 3px solid #000;
