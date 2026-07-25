@@ -8,7 +8,7 @@
     <meta property="og:title" content="Mohamed Haroon - AI Developer & Front-End Engineer Portfolio">
     <meta property="og:description" content="Personal portfolio of Mohamed Haroon featuring AI/ML projects, full-stack applications, and interactive Neo-Brutalist web design.">
     <meta property="og:url" content="https://portfolio.mdharoon.workers.dev/">
-    <link rel="stylesheet" href="style.css?v=2026.07.25.2227">
+    <link rel="stylesheet" href="style.css?v=2026.07.25.2307">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -571,56 +571,61 @@
         <!-- Contact Section -->
         <section id="contact" class="section contact-section">
             <h2 class="section-title contact-section-title">Contact Me</h2>
-            <div class="contact-grid">
-                
-                <div class="card contact-cta-card">
-                    <h2 class="contact-title">Let's make something <br>amazing together</h2>
-                    
-                    <!-- Functional Contact Form UI -->
-                    <form action="mailto:mohamedharoon2109@gmail.com" method="POST" enctype="text/plain" class="contact-form">
-                        <div class="input-group">
-                            <input type="text" name="name" required placeholder="Your Name">
-                        </div>
-                        <div class="input-group">
-                            <input type="email" name="email" required placeholder="Your Email">
-                        </div>
-                        <div class="input-group">
-                            <textarea name="message" rows="4" required placeholder="How can I help you?"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-black submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
-                    </form>
+            
+            <div class="card contact-main-card">
+                <!-- Header Banner -->
+                <div class="contact-header-banner">
+                    <h2 class="contact-banner-title">LET'S BUILD SOMETHING EXCEPTIONAL</h2>
+                    <div class="contact-badges-row">
+                        <span class="contact-pill-badge"><i class="fa-solid fa-location-dot" style="color: #FF1493;"></i> Chennai, India</span>
+                        <span class="contact-badge-dot">•</span>
+                        <span class="contact-pill-badge status-badge"><i class="fa-solid fa-circle" style="color: #10B981; font-size: 0.65rem;"></i> Open to AI & Full-Stack Opportunities</span>
+                    </div>
                 </div>
 
-                <div class="card contact-info-card contact-info-wrapper">
-                    <div>
-                        <h3>Direct Contact</h3>
-                        <div class="info-block">
-                            <p class="info-label">LOCATION</p>
-                            <p>Chennai, India</p>
+                <!-- 2-Column Inner Layout -->
+                <div class="contact-inner-grid">
+                    <!-- Column 1: DIRECT CONTACT -->
+                    <div class="contact-subcard direct-contact-box">
+                        <h3 class="subcard-title"><i class="fa-solid fa-address-book"></i> DIRECT CONTACT</h3>
+                        
+                        <div class="contact-detail-item">
+                            <div class="detail-row">
+                                <i class="fa-solid fa-envelope detail-icon" style="color:#FF1493;"></i>
+                                <a href="mailto:mohamedharoon2109@gmail.com" class="detail-link">mohamedharoon2109@gmail.com</a>
+                            </div>
+                            <button id="copy-email-btn" class="btn copy-email-btn" onclick="navigator.clipboard.writeText('mohamedharoon2109@gmail.com'); this.innerHTML='<i class=\'fa-solid fa-check\'></i> Copied!'; setTimeout(()=>this.innerHTML='<i class=\'fa-solid fa-copy\'></i> Copy Email', 2500);">
+                                <i class="fa-solid fa-copy"></i> Copy Email
+                            </button>
                         </div>
-                        <div class="info-block">
-                            <p class="info-label">PHONE</p>
-                            <p>+91 7305090806</p>
-                        </div>
-                        <div class="info-block">
-                            <p class="info-label">EMAIL</p>
-                            <p>mohamedharoon2109@gmail.com</p>
-                        </div>
-                    </div>
-                    
-                    <div class="social-links-wrapper">
-                        <h3>Social Links</h3>
-                        <div class="social-links">
-                            <a href="https://www.instagram.com/md.a.haroon/#" target="_blank" rel="noopener noreferrer" title="Instagram" class="social-icon social-insta"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://wa.me/917305090806" target="_blank" rel="noopener noreferrer" title="WhatsApp" class="social-icon social-wa"><i class="fa-brands fa-whatsapp"></i></a>
-                            <a href="http://github.com/haroon2109" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-icon social-gh"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer" title="Figma" class="social-icon"><i class="fa-brands fa-figma"></i></a>
-                            <a href="tel:+917305090806" title="Phone" class="social-icon social-phone"><i class="fa-solid fa-phone"></i></a>
-                            <a href="http://linkedin.com/in/mohamed-haroon-811599293" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-icon social-li"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="mailto:mohamedharoon2109@gmail.com" title="Email" class="social-icon social-mail"><i class="fa-solid fa-envelope"></i></a>
+
+                        <div class="contact-detail-item">
+                            <div class="detail-row">
+                                <i class="fa-solid fa-phone detail-icon" style="color:#00D1FF;"></i>
+                                <a href="tel:+917305090806" class="detail-link">+91 7305090806</a>
+                            </div>
                         </div>
                     </div>
 
+                    <!-- Column 2: PROFESSIONAL LINKS -->
+                    <div class="contact-subcard prof-links-box">
+                        <h3 class="subcard-title"><i class="fa-solid fa-link"></i> PROFESSIONAL LINKS</h3>
+                        
+                        <div class="prof-links-grid">
+                            <a href="http://github.com/haroon2109" target="_blank" rel="noopener noreferrer" class="prof-link-btn">
+                                <span><i class="fa-brands fa-github"></i> GitHub</span> <i class="fa-solid fa-arrow-up-right-from-square arrow-icon"></i>
+                            </a>
+                            <a href="http://linkedin.com/in/mohamed-haroon-811599293" target="_blank" rel="noopener noreferrer" class="prof-link-btn">
+                                <span><i class="fa-brands fa-linkedin-in" style="color:#0A66C2;"></i> LinkedIn</span> <i class="fa-solid fa-arrow-up-right-from-square arrow-icon"></i>
+                            </a>
+                            <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer" class="prof-link-btn">
+                                <span><i class="fa-brands fa-figma" style="color:#F24E1E;"></i> Figma</span> <i class="fa-solid fa-arrow-up-right-from-square arrow-icon"></i>
+                            </a>
+                            <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="prof-link-btn resume-btn">
+                                <span><i class="fa-solid fa-file-lines" style="color:#FF1493;"></i> Resume</span> <i class="fa-solid fa-arrow-up-right-from-square arrow-icon"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
             </div>
