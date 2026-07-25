@@ -971,6 +971,7 @@ header {
 .skill-icon-badge {
     width: 44px;
     height: 44px;
+    font-size: 1.35rem;
     border-radius: 8px;
     background: #FFD100;
     border: 2px solid #000;
