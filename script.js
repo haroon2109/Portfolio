@@ -174,6 +174,70 @@ document.addEventListener("DOMContentLoaded", () => {
             img: 'assets/agri-ai.png',
             tags: ['React', 'FastAPI', 'Google Gemini API', 'Whisper ASR', 'Docker', 'Asynchronous Queues'],
             desc: 'Engineered a zero-cost enterprise voice-intent agricultural assistant for Tamil Nadu farmers. Reduced voice query latency by 45% over constrained 2G networks by implementing asynchronous FastAPI queue handlers and lightweight audio payload compression. Integrates real-time weather telemetry and AI crop diagnostic pipelines.',
+            detailsHTML: `
+                <div style="background: #E6F9F2; border: 2px solid #000; box-shadow: 3px 3px 0px #000; padding: 12px 16px; border-radius: 6px; font-weight: 800; font-size: 0.95rem; color: #047857; margin-bottom: 20px;">
+                    🌾 AgriAI: The Intelligent Farming Companion (Next-Gen)
+                </div>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:20px; margin-bottom:10px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">📌 Project Overview & Purpose</h4>
+                <p style="line-height:1.6; margin-bottom:14px;"><strong>AgriAI: An Enterprise-Grade Farming Assistant for Tamil Nadu.</strong> Built on a Zero-Cost Architecture with Voice Intent, 2G Optimization (Data-Light Mode), and Async Workflows. Bridging the gap between Silicon Valley Tech and the Thanjavur Field.</p>
+                <p style="line-height:1.6; margin-bottom:20px;">AgriAI is a professional-grade, microservices-based agricultural platform. It blends cutting-edge AI (Satellite monitoring, Disease Detection) with deep cultural wisdom, now powered by a modern React frontend and a robust Node.js API.</p>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">✨ Key Features</h4>
+                <ul style="list-style:none; padding:0; margin:0 0 24px 0; display:grid; gap:10px;">
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#FF1493;">🤖 AI Advisor:</strong> Real-time advice and market updates.
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#00D1FF;">🌿 Disease Scanner:</strong> Mobile-first crop health diagnosis.
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#10B981;">🗺️ Yield Forecaster:</strong> Satellite-powered regional yield mapping.
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#8A2BE2;">💰 Agri-Market:</strong> Secure shop for fertilizers and tools.
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#FFB020;">☀️ Sunlight Mode:</strong> Ultra-high contrast UI for direct sunlight use.
+                    </li>
+                </ul>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">🏗️ Architecture: Professional Microservices</h4>
+                <p style="line-height:1.6; margin-bottom:14px;">The platform uses a scalable, containerized architecture:</p>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:20px;">
+                    <div style="background:#FAFAFA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:14px; border-radius:6px;">
+                        <h5 style="font-weight:900; font-size:0.95rem; margin-bottom:8px; color:#FF1493;">⚙️ Backend & API (Heart & Brain)</h5>
+                        <ul style="margin:0; padding-left:18px; font-size:0.88rem; line-height:1.6;">
+                            <li><strong>Core API (Node.js/Express)</strong>: JWT Auth, E-commerce, ML Proxy.</li>
+                            <li><strong>ML Backend (FastAPI)</strong>: Yield Prediction, Disease Risk.</li>
+                            <li><strong>Database (PostgreSQL/Supabase)</strong>: Users, products, analytics.</li>
+                        </ul>
+                    </div>
+                    <div style="background:#FAFAFA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:14px; border-radius:6px;">
+                        <h5 style="font-weight:900; font-size:0.95rem; margin-bottom:8px; color:#00D1FF;">🖥️ Frontend (Face)</h5>
+                        <ul style="margin:0; padding-left:18px; font-size:0.88rem; line-height:1.6;">
+                            <li><strong>React + Tailwind</strong>: For a premium, responsive UI.</li>
+                            <li><strong>Sunlight Mode</strong>: Specifically designed for field conditions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">🚀 How to Run & Project Structure</h4>
+                <div style="background:#000; color:#00D1FF; padding:16px; border-radius:6px; font-family:monospace; font-size:0.85rem; line-height:1.7; overflow-x:auto; margin-bottom:14px; border:2px solid #000; box-shadow:4px 4px 0px #FFD100;">
+                    $ git clone https://github.com/haroon2109/AgriAI.git<br>
+                    $ cd AgriAI<br>
+                    $ docker-compose up --build<br><br>
+                    # Access Points:<br>
+                    - Frontend: http://localhost:3000<br>
+                    - Core API: http://localhost:5000/api<br>
+                    - ML Docs: http://localhost:8000/docs
+                </div>
+                <p style="font-size:0.9rem; margin-bottom:24px;"><strong>Structure:</strong> <code>frontend_react/</code> (React Dashboard), <code>backend_node/</code> (Node.js API), <code>backend_api/</code> (ML Service), <code>legacy_archive/</code> (Streamlit Prototype).</p>
+                
+                <div style="text-align: center; font-weight: bold; margin-top: 30px; font-size: 1.1rem; color: #E11D48;">
+                    Built with ❤️ for the farmers of Tamil Nadu.
+                </div>
+            \`,
             github: 'https://github.com/haroon2109/AgriAI',
             live: 'https://agriai-frontend-57v0.onrender.com/'
         },
