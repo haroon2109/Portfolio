@@ -452,10 +452,51 @@ OCR           Speech         Metadata
             live: 'https://kagaz-ai.vercel.app/'
         },
         'artisan-ai': {
-            title: 'Artisan AI Multimodal Studio',
+            title: 'Artisan AI — Generate Art with Text',
             img: 'assets/artisan-ai.png',
-            tags: ['Python', 'Streamlit', 'Google Gemini Pro Vision', 'Prompt Pipeline'],
-            desc: 'Developed a multimodal AI design suite utilizing Google Gemini API for automated marketing banner and copy synthesis. Empowers local artisans to generate publication-ready promotional visual assets in under 5 seconds with zero prior graphic design experience.',
+            tags: ['Python', 'Streamlit', 'Google Gemini API', 'Text-to-Image'],
+            desc: 'An AI-powered assistant for artisans to create stunning, high-quality posters and advertisements that attract buyers and elevate their brand. Features multi-language support and smart tools to grow your business online.',
+            detailsHTML: `
+                <div style="background: #FEF3C7; border: 2px solid #000; box-shadow: 3px 3px 0px #000; padding: 12px 16px; border-radius: 6px; font-weight: 800; font-size: 0.95rem; color: #D97706; margin-bottom: 20px;">
+                    🎨 Artisan AI — Generate Art with Text
+                </div>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:20px; margin-bottom:10px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">📌 Project Overview</h4>
+                <p style="line-height:1.6; margin-bottom:14px;"><strong>An AI-powered assistant for artisans to create stunning, high-quality posters and advertisements that attract buyers and elevate their brand.</strong> Features multi-language support and smart tools to grow your business online.</p>
+                <p style="line-height:1.6; margin-bottom:20px;">A sleek, user-friendly application built with Streamlit that allows users to generate high-quality images from text prompts using the Google Gemini API (or a similar generative model).</p>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">✨ Key Features</h4>
+                <ul style="list-style:none; padding:0; margin:0 0 24px 0; display:grid; gap:10px;">
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#D97706;">🖼️ Text-to-Image Generation:</strong> Input a descriptive text prompt and receive a generated image instantly.
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#2563EB;">🖥️ Intuitive UI:</strong> Built with Streamlit for a simple, fast, and interactive user experience.
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#059669;">🎛️ Prompt Customization:</strong> Easily adjust parameters (e.g., style, aspect ratio, model version) to fine-tune your creative output.
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#DB2777;">📥 Download Functionality:</strong> Save your generated artwork directly to your device.
+                    </li>
+                </ul>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">🚀 Getting Started (Local Setup)</h4>
+                <div style="background:#000; color:#00D1FF; padding:16px; border-radius:6px; font-family:monospace; font-size:0.85rem; line-height:1.7; overflow-x:auto; margin-bottom:24px; border:2px solid #000; box-shadow:4px 4px 0px #FFD100;">
+                    # Prerequisites: Python 3.8+ & Gemini API Key<br>
+                    <br>
+                    $ git clone https://github.com/haroon2109/Artisan-AI.git<br>
+                    $ cd Artisan-AI<br>
+                    <br>
+                    # Create Virtual Environment<br>
+                    $ python -m venv venv<br>
+                    $ source venv/bin/activate  # Linux/macOS<br>
+                    $ .\\venv\\Scripts\\activate  # Windows<br>
+                    <br>
+                    # Install Dependencies<br>
+                    $ pip install -r requirements.txt
+                </div>
+            `,
             github: 'https://github.com/haroon2109/Artisan-AI',
             live: 'https://haroon2109.github.io/Artisan-AI/'
         },
