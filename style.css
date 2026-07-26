@@ -803,6 +803,26 @@ header {
     margin-top: auto;
 }
 
+.card-actions .btn-details {
+    width: 100%;
+    text-align: center;
+}
+
+.card-actions .btn-live {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-actions .btn-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn-live {
     background: var(--text-blue) !important;
     color: #000 !important;
