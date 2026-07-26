@@ -798,29 +798,38 @@ header {
 
 .card-actions {
     display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+    gap: 8px;
+    flex-wrap: nowrap;
     margin-top: auto;
 }
 
 .card-actions .btn-details {
-    width: 100%;
+    flex: 2;
     text-align: center;
+    padding: 10px;
+    font-size: 0.85rem;
+    white-space: nowrap;
 }
 
 .card-actions .btn-live {
-    flex: 1;
+    flex: 2;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
+    padding: 10px;
+    font-size: 0.85rem;
+    white-space: nowrap;
 }
 
 .card-actions .btn-github {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    font-size: 1.1rem;
 }
 
 .btn-live {
