@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const projectData = {
         'sukoon-ai': {
             title: 'Sukoon AI — The "Stripe for Misinformation"',
-            img: 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%23818CF8\'/><text x=\'50%\' y=\'45%\' font-family=\'sans-serif\' font-size=\'36\' fill=\'%23fff\' font-weight=\'900\' text-anchor=\'middle\'>Sukoon AI</text><text x=\'50%\' y=\'60%\' font-family=\'sans-serif\' font-size=\'18\' fill=\'%23fff\' font-weight=\'bold\' text-anchor=\'middle\'>Anti-Misinformation Platform</text></svg>',
+            img: 'assets/sukoon-ai.png',
             tags: ['Next.js', 'FastAPI', 'Qdrant', 'RAG', 'Celery', 'Gemini 2.5 Flash', 'LangGraph'],
             desc: 'Sukoon AI is an API-first platform that automatically intercepts, verifies, and neutralizes viral misinformation and deepfakes. It uses a specialized RAG pipeline directly indexing authoritative fact-checkers.',
             detailsHTML: `
@@ -256,7 +256,7 @@ OCR           Speech         Metadata
         },
         'relief-grid': {
             title: 'ReliefGrid — Precision Logistics for Crisis Coordination & Disaster Response',
-            img: 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%23FF60B5\'/><text x=\'50%\' y=\'45%\' font-family=\'sans-serif\' font-size=\'36\' fill=\'%23fff\' font-weight=\'900\' text-anchor=\'middle\'>ReliefGrid</text><text x=\'50%\' y=\'60%\' font-family=\'sans-serif\' font-size=\'18\' fill=\'%23fff\' font-weight=\'bold\' text-anchor=\'middle\'>Disaster Relief Spatial Mapping</text></svg>',
+            img: 'assets/reliefgrid.png',
             tags: ['React', 'Firebase', 'Gemini AI', 'Leaflet', 'Express.ts', 'Tailwind CSS'],
             desc: 'An AI-powered logistics and resource allocation platform designed for Indian NGOs to optimize crisis response. Leverages Google Gemini AI for real-time supply-demand mapping.',
             detailsHTML: `
