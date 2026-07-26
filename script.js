@@ -304,17 +304,6 @@ OCR           Speech         Metadata
                     </li>
                 </ul>
 
-                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">💻 Local Development</h4>
-                <div style="background:#000; color:#00D1FF; padding:16px; border-radius:6px; font-family:monospace; font-size:0.85rem; line-height:1.7; overflow-x:auto; margin-bottom:24px; border:2px solid #000; box-shadow:4px 4px 0px #FFD100;">
-                    $ npm install<br>
-                    <br>
-                    # Environment Configuration (.env):<br>
-                    VITE_FIREBASE_API_KEY=your_key<br>
-                    VITE_GEMINI_API_KEY=your_key<br>
-                    VITE_GOOGLE_MAPS_API_KEY=your_key<br>
-                    <br>
-                    $ npm run dev
-                </div>
             `,
             github: 'https://github.com/haroon2109/ReliefGrid',
             live: ''
