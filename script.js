@@ -237,7 +237,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div style="text-align: center; font-weight: bold; margin-top: 30px; font-size: 1.1rem; color: #E11D48;">
                     Built with ❤️ for the farmers of Tamil Nadu.
                 </div>
-            \`,
+            `,
             github: 'https://github.com/haroon2109/AgriAI',
             live: 'https://agriai-frontend-57v0.onrender.com/'
         },
