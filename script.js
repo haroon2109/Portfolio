@@ -255,10 +255,72 @@ OCR           Speech         Metadata
             live: 'https://sukoon-ai-pied.vercel.app/'
         },
         'relief-grid': {
-            title: 'ReliefGrid — Disaster Relief Coordination & Resource Mapping Platform',
+            title: 'ReliefGrid — Precision Logistics for Crisis Coordination & Disaster Response',
             img: 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%23FF60B5\'/><text x=\'50%\' y=\'45%\' font-family=\'sans-serif\' font-size=\'36\' fill=\'%23fff\' font-weight=\'900\' text-anchor=\'middle\'>ReliefGrid</text><text x=\'50%\' y=\'60%\' font-family=\'sans-serif\' font-size=\'18\' fill=\'%23fff\' font-weight=\'bold\' text-anchor=\'middle\'>Disaster Relief Spatial Mapping</text></svg>',
-            tags: ['Python', 'GeoJSON', 'Spatial Mapping', 'Resource Logistics', 'FastAPI', 'Disaster Relief'],
-            desc: 'Architected ReliefGrid, an emergency spatial telemetry and aid distribution management platform. Enables first responders and municipal teams to map active shelter capacities, track essential supply lines, and optimize rescue routing during natural disasters.',
+            tags: ['React', 'Firebase', 'Gemini AI', 'Leaflet', 'Express.ts', 'Tailwind CSS'],
+            desc: 'An AI-powered logistics and resource allocation platform designed for Indian NGOs to optimize crisis response. Leverages Google Gemini AI for real-time supply-demand mapping.',
+            detailsHTML: `
+                <div style="background: #FDF2F8; border: 2px solid #000; box-shadow: 3px 3px 0px #000; padding: 12px 16px; border-radius: 6px; font-weight: 800; font-size: 0.95rem; color: #BE185D; margin-bottom: 20px;">
+                    ReliefGRID 🌐 — Precision Logistics for Crisis Coordination & Disaster Response
+                </div>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:20px; margin-bottom:10px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">📌 Project Overview & The "Why"</h4>
+                <p style="line-height:1.6; margin-bottom:14px;"><strong>An AI-powered logistics and resource allocation platform designed for Indian NGOs to optimize crisis response.</strong> ReliefGRID is an intelligence-driven logistics platform designed to bridge the gap between donors, NGOs, and ground-level field operations.</p>
+                <p style="line-height:1.6; margin-bottom:20px;">In the chaos of a disaster, data fragmentation is the greatest barrier to aid. Traditional disaster relief often suffers from overlapping efforts and "dark spots" where aid never reaches. ReliefGRID solves this by automating the ingestion of field intel and providing real-time geospatial visualization of demand saturation.</p>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">🛠️ The "What": Core Capabilities</h4>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:24px;">
+                    <div style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:14px; border-radius:6px;">
+                        <h5 style="font-weight:900; font-size:0.95rem; margin-bottom:8px; color:#DB2777;">🎙️ Multimodal Intel Ingestion</h5>
+                        <p style="font-size:0.88rem; line-height:1.5; margin-bottom:0;">Uses advanced NLP to extract actionable data (e.g., "5 boxes of water needed") from unstructured inputs like Voice notes (Tamil), paper surveys via OCR, and WhatsApp messages.</p>
+                    </div>
+                    <div style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:14px; border-radius:6px;">
+                        <h5 style="font-weight:900; font-size:0.95rem; margin-bottom:8px; color:#2563EB;">🧠 Smart Matching & Deduplication</h5>
+                        <p style="font-size:0.88rem; line-height:1.5; margin-bottom:0;">The "Brain" automatically deduplicates aid requests within a 500m radius and scores them based on urgency, preventing resource waste.</p>
+                    </div>
+                    <div style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:14px; border-radius:6px;">
+                        <h5 style="font-weight:900; font-size:0.95rem; margin-bottom:8px; color:#059669;">🗺️ Geospatial Demand Center</h5>
+                        <p style="font-size:0.88rem; line-height:1.5; margin-bottom:0;">A high-precision Leaflet-based command center featuring Proximity Heatmaps, Dispatch Tracker for drones/trucks, and Live Resource Pins.</p>
+                    </div>
+                    <div style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:14px; border-radius:6px;">
+                        <h5 style="font-weight:900; font-size:0.95rem; margin-bottom:8px; color:#D97706;">⛓️ Transparent Impact Ledger</h5>
+                        <p style="font-size:0.88rem; line-height:1.5; margin-bottom:0;">Every delivery is logged to an immutable ledger using a QR Handshake between drivers and volunteers, providing a cryptographic audit for donors.</p>
+                    </div>
+                </div>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">🚀 Technology Stack</h4>
+                <ul style="list-style:none; padding:0; margin:0 0 24px 0; display:grid; gap:10px;">
+                    <li style="background:#FAFAFA; border:2px solid #000; padding:10px 14px; border-radius:6px; font-size:0.92rem;">
+                        <strong>Frontend:</strong> React 19, Vite, Tailwind CSS, Framer Motion
+                    </li>
+                    <li style="background:#FAFAFA; border:2px solid #000; padding:10px 14px; border-radius:6px; font-size:0.92rem;">
+                        <strong>Maps & Backend:</strong> Leaflet.js, React-Leaflet, Express.ts, TSX
+                    </li>
+                    <li style="background:#FAFAFA; border:2px solid #000; padding:10px 14px; border-radius:6px; font-size:0.92rem;">
+                        <strong>Database & Auth:</strong> Firebase Firestore, Firebase Authentication
+                    </li>
+                    <li style="background:#FAFAFA; border:2px solid #000; padding:10px 14px; border-radius:6px; font-size:0.92rem;">
+                        <strong>AI/Intelligence:</strong> Gemini 1.5 Flash (Extracting structured data from multimodal inputs)
+                    </li>
+                </ul>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">💻 Local Development</h4>
+                <div style="background:#000; color:#00D1FF; padding:16px; border-radius:6px; font-family:monospace; font-size:0.85rem; line-height:1.7; overflow-x:auto; margin-bottom:24px; border:2px solid #000; box-shadow:4px 4px 0px #FFD100;">
+                    $ npm install<br>
+                    <br>
+                    # Environment Configuration (.env):<br>
+                    VITE_FIREBASE_API_KEY=your_key<br>
+                    VITE_GEMINI_API_KEY=your_key<br>
+                    VITE_GOOGLE_MAPS_API_KEY=your_key<br>
+                    <br>
+                    $ npm run dev
+                </div>
+
+                <div style="text-align: center; font-size: 0.95rem; color: #4B5563; border-top: 1px dashed #D1D5DB; padding-top: 16px; margin-top: 20px;">
+                    <strong>👥 Proudly built for the smart logistics community by:</strong><br>
+                    Mohammed Absal, Madhavan & Haroon
+                </div>
+            `,
             github: 'https://github.com/haroon2109/ReliefGrid',
             live: ''
         },
