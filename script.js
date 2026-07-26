@@ -158,6 +158,99 @@ document.addEventListener("DOMContentLoaded", () => {
             img: 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%23818CF8\'/><text x=\'50%\' y=\'45%\' font-family=\'sans-serif\' font-size=\'36\' fill=\'%23fff\' font-weight=\'900\' text-anchor=\'middle\'>Sukoon AI</text><text x=\'50%\' y=\'60%\' font-family=\'sans-serif\' font-size=\'18\' fill=\'%23fff\' font-weight=\'bold\' text-anchor=\'middle\'>Mental Wellness Companion Platform</text></svg>',
             tags: ['Next.js', 'React', 'Google Gemini API', 'TailwindCSS', 'Wellness AI', 'Vercel'],
             desc: 'Architected Sukoon AI, an empathetic mental wellness platform combining intelligent conversational AI flows with personalized mood tracking and calm, responsive UI design. Deployed live on Vercel with zero latency response pipelines.',
+            detailsHTML: `
+                <div style="background: #EEF2FF; border: 2px solid #000; box-shadow: 3px 3px 0px #000; padding: 12px 16px; border-radius: 6px; font-weight: 800; font-size: 0.95rem; color: #4338CA; margin-bottom: 20px;">
+                    Sukoon AI — The "Stripe for Misinformation"
+                </div>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:20px; margin-bottom:10px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">📌 Project Overview & The Moat</h4>
+                <p style="line-height:1.6; margin-bottom:14px;"><strong>Sukoon AI is an API-first platform that automatically intercepts, verifies, and neutralizes viral misinformation, deepfakes, and hate speech.</strong> We provide the "Stripe for Misinformation"—equipping social platforms (Meta, X, WhatsApp) and massive Newsrooms with a localized, legally defensible RAG verification engine.</p>
+                <p style="line-height:1.6; margin-bottom:20px;">Unlike generic LLMs that hallucinate, Sukoon AI is anchored by a specialized RAG pipeline directly indexing authoritative Indian fact-checkers like <strong>PIB Fact Check</strong>, <strong>Alt News</strong>, and <strong>BOOM Live</strong>. By performing a semantic vector search against locally verified facts first via a hosted Qdrant database, we instantly retrieve debunked claims in milliseconds, saving massive token costs and preventing contradictory advice.</p>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">🧠 Explainable AI (XAI) Architecture</h4>
+                <ul style="list-style:none; padding:0; margin:0 0 24px 0; display:grid; gap:10px;">
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#EF4444;">🛡️ Toxicity Scan:</strong> Confirms the incoming claim doesn't violate safety guardrails (Perspective API / ShieldGemma).
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#3B82F6;">🔍 Fact Grounding:</strong> Highlights exactly which trusted database entries contradicted the claim (Qdrant Vector Search).
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#F59E0B;">📊 Confidence Gauge:</strong> A visual percentage indicating how certain the model is based on cross-referencing (Gemini JSON).
+                    </li>
+                    <li style="background:#F8F9FA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:12px 16px; border-radius:6px; font-size:0.92rem;">
+                        <strong style="color:#10B981;">📝 Verification Trace:</strong> A structured, natural language breakdown of the AI's logical reasoning steps.
+                    </li>
+                </ul>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">🏗️ Architecture & Orchestration</h4>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:20px;">
+                    <div style="background:#FAFAFA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:14px; border-radius:6px;">
+                        <h5 style="font-weight:900; font-size:0.95rem; margin-bottom:8px; color:#4338CA;">🤖 Multi-Agent Ecosystem</h5>
+                        <ul style="margin:0; padding-left:18px; font-size:0.88rem; line-height:1.6;">
+                            <li><strong>Google ADK & MCP</strong>: Open-source runtime execution and universal dataset protocols.</li>
+                            <li><strong>LangGraph</strong>: Stateful agent orchestration for complex multi-turn forensic analysis.</li>
+                            <li><strong>Langfuse</strong>: Enterprise-grade telemetry, mapping execution traces and cost analytics.</li>
+                            <li><strong>Prism & Agent Memory Guard</strong>: Autonomous firewall against prompt injections.</li>
+                        </ul>
+                    </div>
+                    <div style="background:#FAFAFA; border:2px solid #000; box-shadow:3px 3px 0px #000; padding:14px; border-radius:6px;">
+                        <h5 style="font-weight:900; font-size:0.95rem; margin-bottom:8px; color:#D946EF;">⚙️ Core Infrastructure</h5>
+                        <ul style="margin:0; padding-left:18px; font-size:0.88rem; line-height:1.6;">
+                            <li><strong>Gemini 2.5 Flash</strong>: Verification truth engine strictly constrained by Pydantic JSON schemas.</li>
+                            <li><strong>Supabase & pgvector</strong>: Open-source PostgreSQL RAG memory bank.</li>
+                            <li><strong>Playwright & BS4</strong>: Hybrid scraping stack for dynamic/static content rendering.</li>
+                            <li><strong>Celery & SQLite</strong>: Localized task queue for highly efficient async processing on Cloud Run.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">🔄 Agentic Verification Loop</h4>
+                <div style="background:#000; color:#00D1FF; padding:16px; border-radius:6px; font-family:monospace; font-size:0.85rem; line-height:1.7; overflow-x:auto; margin-bottom:24px; border:2px solid #000; box-shadow:4px 4px 0px #FFD100; white-space:pre;">
+                 User
+                  │
+      ┌───────────┴───────────┐
+      │ Text │ URL │ Image │ Video
+      └───────────┬───────────┘
+                  │
+          FastAPI Backend
+                  │
+        Content Extraction Layer
+                  │
+ ┌───────────────┼────────────────┐
+ │               │                │
+OCR           Speech         Metadata
+ │               │                │
+ └───────────────┼────────────────┘
+                 │
+      Claim Extraction Model
+                 │
+        Evidence Retrieval
+                 │
+     Fact Verification Engine
+                 │
+ Confidence + Reasoning
+                 │
+     AI Explanation Generator
+                 │
+          Frontend Result
+                </div>
+
+                <h4 style="font-size:1.15rem; font-weight:900; margin-top:24px; margin-bottom:12px; text-transform:uppercase; border-bottom:2px solid #000; padding-bottom:6px;">💻 Tech Stack & Design Philosophy</h4>
+                <p style="line-height:1.6; margin-bottom:14px;"><strong>Frontend:</strong> Next.js 15 (App Router), React, Tailwind CSS, ShadCN, Framer Motion<br>
+                <strong>Backend API:</strong> FastAPI, WebSockets<br>
+                <strong>Async Processing & DB:</strong> Celery, Redis, PostgreSQL, Qdrant</p>
+                <p style="line-height:1.6; margin-bottom:14px;"><strong>"Clinical & Calm" UI:</strong> Sukoon AI deals with high-anxiety viral content. The UI entirely avoids bright "startup" colors in favor of muted earth tones, deep navy, and clinical teal to instantly de-escalate emotional states.</p>
+
+                <div style="background:#000; color:#00D1FF; padding:16px; border-radius:6px; font-family:monospace; font-size:0.85rem; line-height:1.7; overflow-x:auto; margin-bottom:14px; border:2px solid #000; box-shadow:4px 4px 0px #FFD100;">
+                    # Running the MVP Locally<br>
+                    $ cd backend<br>
+                    $ uvicorn app.main:app --reload --port 8000<br>
+                    <br>
+                    $ cd frontend<br>
+                    $ npm run dev
+                </div>
+            `,
             github: 'https://github.com/haroon2109/Sukoon-AI',
             live: 'https://sukoon-ai-pied.vercel.app/'
         },
