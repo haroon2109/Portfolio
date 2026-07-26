@@ -154,10 +154,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // Project Case Study Modal Data
     const projectData = {
         'sukoon-ai': {
-            title: 'Sukoon AI — Mental Wellness & Support Companion Platform',
-            img: 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%23818CF8\'/><text x=\'50%\' y=\'45%\' font-family=\'sans-serif\' font-size=\'36\' fill=\'%23fff\' font-weight=\'900\' text-anchor=\'middle\'>Sukoon AI</text><text x=\'50%\' y=\'60%\' font-family=\'sans-serif\' font-size=\'18\' fill=\'%23fff\' font-weight=\'bold\' text-anchor=\'middle\'>Mental Wellness Companion Platform</text></svg>',
-            tags: ['Next.js', 'React', 'Google Gemini API', 'TailwindCSS', 'Wellness AI', 'Vercel'],
-            desc: 'Architected Sukoon AI, an empathetic mental wellness platform combining intelligent conversational AI flows with personalized mood tracking and calm, responsive UI design. Deployed live on Vercel with zero latency response pipelines.',
+            title: 'Sukoon AI — The "Stripe for Misinformation"',
+            img: 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%23818CF8\'/><text x=\'50%\' y=\'45%\' font-family=\'sans-serif\' font-size=\'36\' fill=\'%23fff\' font-weight=\'900\' text-anchor=\'middle\'>Sukoon AI</text><text x=\'50%\' y=\'60%\' font-family=\'sans-serif\' font-size=\'18\' fill=\'%23fff\' font-weight=\'bold\' text-anchor=\'middle\'>Anti-Misinformation Platform</text></svg>',
+            tags: ['Next.js', 'FastAPI', 'Qdrant', 'RAG', 'Celery', 'Gemini 2.5 Flash', 'LangGraph'],
+            desc: 'Sukoon AI is an API-first platform that automatically intercepts, verifies, and neutralizes viral misinformation and deepfakes. It uses a specialized RAG pipeline directly indexing authoritative fact-checkers.',
             detailsHTML: `
                 <div style="background: #EEF2FF; border: 2px solid #000; box-shadow: 3px 3px 0px #000; padding: 12px 16px; border-radius: 6px; font-weight: 800; font-size: 0.95rem; color: #4338CA; margin-bottom: 20px;">
                     Sukoon AI — The "Stripe for Misinformation"
