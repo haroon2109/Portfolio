@@ -315,11 +315,6 @@ OCR           Speech         Metadata
                     <br>
                     $ npm run dev
                 </div>
-
-                <div style="text-align: center; font-size: 0.95rem; color: #4B5563; border-top: 1px dashed #D1D5DB; padding-top: 16px; margin-top: 20px;">
-                    <strong>👥 Proudly built for the smart logistics community by:</strong><br>
-                    Mohammed Absal, Madhavan & Haroon
-                </div>
             `,
             github: 'https://github.com/haroon2109/ReliefGrid',
             live: ''
